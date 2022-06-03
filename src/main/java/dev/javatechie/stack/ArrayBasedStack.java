@@ -19,6 +19,10 @@ public class ArrayBasedStack {
         System.out.println(stack.size());
         stack.printStackItems();
 
+        System.out.println(stack.isEmpty());
+
+        System.out.println(stack.peek());
+
     }
 
     private Object[] items;
