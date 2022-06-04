@@ -4,7 +4,19 @@ import java.util.NoSuchElementException;
 
 public class ArrayBasedQueue {
     public static void main(String[] args) {
+        final ArrayBasedQueue queue = new ArrayBasedQueue(10);
+        System.out.println(queue.size());
 
+        queue.enqueue("Item1");
+        queue.enqueue("Item2");
+        queue.enqueue("Item3");
+
+        System.out.println(queue.size());
+
+        queue.dequeue();
+        System.out.println(queue.size());
+
+        System.out.println(queue.isEmpty());
     }
 
     private Object[] items;
