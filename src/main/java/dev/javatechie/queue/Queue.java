@@ -5,7 +5,3 @@ public class Queue {
         System.out.println("==== Basic Queue ====");
     }
 }
-
-class c {
-
-}
