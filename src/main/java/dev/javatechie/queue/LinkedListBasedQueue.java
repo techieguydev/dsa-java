@@ -11,8 +11,11 @@ public class LinkedListBasedQueue {
         linkedListQueue.enqueue("Item3");
 
         System.out.println(linkedListQueue.size());
+        linkedListQueue.printQueue();
         linkedListQueue.dequeue();
         System.out.println(linkedListQueue.size());
+        linkedListQueue.printQueue();
+
     }
 
     private class Node {
@@ -69,6 +72,8 @@ public class LinkedListBasedQueue {
     }
 
     public void printQueue() {
-
+        for (Node node = head; node != null; node = node.next) {
+            System.out.println(node.item);
+        }
     }
 }
