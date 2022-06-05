@@ -2,7 +2,15 @@ package dev.javatechie.queue;
 
 import java.util.NoSuchElementException;
 
+/**
+ * The type Array based queue.
+ */
 public class ArrayBasedQueue {
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         final ArrayBasedQueue queue = new ArrayBasedQueue(10);
         System.out.println(queue.size());
@@ -25,10 +33,20 @@ public class ArrayBasedQueue {
     private int tail = 0;
     private int head = 0;
 
+    /**
+     * Instantiates a new Array based queue.
+     *
+     * @param capacity the capacity
+     */
     public ArrayBasedQueue(int capacity) {
         items = new Object[capacity];
     }
 
+    /**
+     * Enqueue.
+     *
+     * @param item the item
+     */
     public void enqueue(final Object item) {
         if (size == items.length) {
             throw new IllegalStateException("No space to add more item into Queue");
@@ -38,6 +56,11 @@ public class ArrayBasedQueue {
         size++;
     }
 
+    /**
+     * Dequeue object.
+     *
+     * @return the object
+     */
     public Object dequeue() {
         if(size == 0) {
             throw new NoSuchElementException("Empty Queue");
@@ -49,16 +72,32 @@ public class ArrayBasedQueue {
         return item;
     }
 
+    /**
+     * Peek object.
+     *
+     * @return the object
+     */
     public Object peek() {
         if(size == 0) {
             throw new NoSuchElementException("Empty Queue");
         }
         return items[head];
     }
+
+    /**
+     * Size int.
+     *
+     * @return the int
+     */
     public int size() {
         return size;
     }
 
+    /**
+     * Is empty boolean.
+     *
+     * @return the boolean
+     */
     public boolean isEmpty() {
         return size == 0;
     }
