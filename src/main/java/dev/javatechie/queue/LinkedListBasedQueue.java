@@ -5,9 +5,17 @@ import java.util.NoSuchElementException;
 public class LinkedListBasedQueue {
     public static void main(String[] args) {
 
+        final LinkedListBasedQueue linkedListQueue = new LinkedListBasedQueue();
+        linkedListQueue.enqueue("Item1");
+        linkedListQueue.enqueue("Item2");
+        linkedListQueue.enqueue("Item3");
+
+        System.out.println(linkedListQueue.size());
+        linkedListQueue.dequeue();
+        System.out.println(linkedListQueue.size());
     }
 
-    private static class Node {
+    private class Node {
         private Object item;
         private Node next;
 
@@ -60,4 +68,7 @@ public class LinkedListBasedQueue {
         return size;
     }
 
+    public void printQueue() {
+
+    }
 }
