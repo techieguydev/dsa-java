@@ -2,8 +2,16 @@ package dev.javatechie.stack;
 
 import java.util.NoSuchElementException;
 
+/**
+ * The type Linked list based stack.
+ */
 public class LinkedListBasedStack {
 
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         final LinkedListBasedStack linkedListStack = new LinkedListBasedStack();
         //linkedListStack.peek();
@@ -21,6 +29,12 @@ public class LinkedListBasedStack {
         private Object item;
         private Node next;
 
+        /**
+         * Instantiates a new Node.
+         *
+         * @param item the item
+         * @param next the next
+         */
         public Node(final Object item, final Node next) {
             this.item = item;
             this.next = next;
@@ -30,11 +44,21 @@ public class LinkedListBasedStack {
     private Node top = null;
     private int size = 0;
 
+    /**
+     * Push.
+     *
+     * @param item the item
+     */
     public void push(final Object item) {
         top = new Node(item, top);
         size++;
     }
 
+    /**
+     * Pop object.
+     *
+     * @return the object
+     */
     public Object pop() {
         if (top == null) {
             throw new IllegalStateException("Empty stack");
@@ -45,6 +69,11 @@ public class LinkedListBasedStack {
         return item;
     }
 
+    /**
+     * Peek object.
+     *
+     * @return the object
+     */
     public Object peek() {
         if (top == null) {
             throw new NoSuchElementException("Empty stack");
@@ -52,14 +81,27 @@ public class LinkedListBasedStack {
         return top.item;
     }
 
+    /**
+     * Size int.
+     *
+     * @return the int
+     */
     public int size() {
         return this.size;
     }
 
+    /**
+     * Is empty boolean.
+     *
+     * @return the boolean
+     */
     public boolean isEmpty() {
         return top == null;
     }
 
+    /**
+     * Print stack.
+     */
     public void printStack() {
         for (Node node = top; node != null; node = node.next) {
             System.out.println(node.item);
