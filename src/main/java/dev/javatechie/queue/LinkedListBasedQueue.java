@@ -52,4 +52,12 @@ public class LinkedListBasedQueue {
         return head.item;
     }
 
+    public boolean isEmpty() {
+        return head == null;
+    }
+
+    public int size() {
+        return size;
+    }
+
 }
