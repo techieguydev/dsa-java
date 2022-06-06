@@ -1,7 +1,17 @@
 package dev.javatechie.tree;
 
+/**
+ * The type Binary tree.
+ *
+ * @param <E> the type parameter
+ */
 public class BinaryTree<E extends Comparable<E>> {
 
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
 
     }
@@ -9,6 +19,11 @@ public class BinaryTree<E extends Comparable<E>> {
     private Node<E> root;
     private int size = 0;
 
+    /**
+     * Add node.
+     *
+     * @param element the element
+     */
     public void addNode(final E element) {
         if (root == null) {
             root = new Node<>(element);
@@ -18,6 +33,13 @@ public class BinaryTree<E extends Comparable<E>> {
         }
     }
 
+    /**
+     * Add node node.
+     *
+     * @param rootNode the root node
+     * @param element  the element
+     * @return the node
+     */
     public Node<E> addNode(final Node<E> rootNode, final E element) {
         if (rootNode == null) {
             return null;
@@ -41,16 +63,32 @@ public class BinaryTree<E extends Comparable<E>> {
         return newNode;
     }
 
+    /**
+     * Root node.
+     *
+     * @return the node
+     */
     public Node<E> root() {
         if(!isEmpty())
             return root;
         return null;
     }
 
+    /**
+     * Is empty boolean.
+     *
+     * @return the boolean
+     */
     public boolean isEmpty() {
         return size == 0;
     }
 
+    /**
+     * Is root boolean.
+     *
+     * @param node the node
+     * @return the boolean
+     */
     public boolean isRoot(final Node<E> node ) {
         if (root == node) {
             return true;
@@ -63,6 +101,11 @@ public class BinaryTree<E extends Comparable<E>> {
         private Node<T> right;
         private T data;
 
+        /**
+         * Instantiates a new Node.
+         *
+         * @param data the data
+         */
         public Node(T data) {
             this.data = data;
             this.left = null;
