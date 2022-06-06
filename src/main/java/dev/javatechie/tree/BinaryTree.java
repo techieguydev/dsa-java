@@ -41,8 +41,21 @@ public class BinaryTree<E extends Comparable<E>> {
         return newNode;
     }
 
-    public boolean isRoot(final Node<E> node ) {
+    public Node<E> root() {
+        if(!isEmpty())
+            return root;
+        return null;
+    }
 
+    public boolean isEmpty() {
+        return size == 0;
+    }
+
+    public boolean isRoot(final Node<E> node ) {
+        if (root == node) {
+            return true;
+        }
+        return false;
     }
 
     private static class Node<T> {
