@@ -19,10 +19,26 @@ public class BinaryTree<E extends Comparable<E>> {
     }
 
     private Node<E> addNode(final Node<E> rootNode, final E element) {
-        if (rootNode ) {
-
+        if (rootNode == null) {
+            return null;
         }
-        return null;
+
+        final Node<E> newNode = new Node<>(element);
+        if(newNode.data.compareTo(rootNode.data) <= 0) {
+            if(rootNode.left != null) {
+                rootNode.left = addNode(rootNode, element);
+            } else {
+                rootNode.left = newNode;
+            }
+        } else {
+            if(rootNode.right != null) {
+                rootNode.right = addNode(rootNode, element);
+            } else {
+                rootNode.right = newNode;
+            }
+        }
+        size++;
+        return newNode;
     }
 
     private static class Node<T> {
