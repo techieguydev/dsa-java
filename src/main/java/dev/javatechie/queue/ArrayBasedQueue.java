@@ -4,6 +4,8 @@ import java.util.NoSuchElementException;
 
 /**
  * The type Array based queue.
+ *
+ * @author TechieGuy
  */
 public class ArrayBasedQueue {
     /**
