@@ -18,7 +18,7 @@ public class BinaryTree<E extends Comparable<E>> {
         }
     }
 
-    private Node<E> addNode(final Node<E> rootNode, final E element) {
+    public Node<E> addNode(final Node<E> rootNode, final E element) {
         if (rootNode == null) {
             return null;
         }
@@ -39,6 +39,10 @@ public class BinaryTree<E extends Comparable<E>> {
         }
         size++;
         return newNode;
+    }
+
+    public boolean isRoot(final Node<E> node ) {
+
     }
 
     private static class Node<T> {
