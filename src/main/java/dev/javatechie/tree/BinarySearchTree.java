@@ -7,6 +7,9 @@ public class BinarySearchTree<E extends Comparable<E>> {
     }
 
     private class Node<T> {
-        private
+        private T data;
+        private Node<T> left;
+        private Node<T> right;
+
     }
 }
