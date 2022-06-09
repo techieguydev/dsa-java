@@ -18,11 +18,17 @@ public class BinarySearchTree<E extends Comparable<E>> {
         }
     }
 
+    private int size = 0;
+
     public Node<E> addNewNode(final Node<E> rootNode, final E data) {
         return null;
     }
 
     public Node<E> getLeafNode(final Node<E> rootNode) {
         return null;
+    }
+
+    public boolean isEmpty() {
+        return size == 0;
     }
 }
