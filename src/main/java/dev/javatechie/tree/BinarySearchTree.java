@@ -21,4 +21,8 @@ public class BinarySearchTree<E extends Comparable<E>> {
     public Node<E> addNewNode(final Node<E> rootNode, final E data) {
         return null;
     }
+
+    public Node<E> getLeafNode(final Node<E> rootNode) {
+        return null;
+    }
 }
