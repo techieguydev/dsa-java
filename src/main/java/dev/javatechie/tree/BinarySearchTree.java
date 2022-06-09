@@ -36,4 +36,10 @@ public class BinarySearchTree<E extends Comparable<E>> {
     public int size() {
         return size;
     }
+
+    public boolean isRoot(final Node<E> node) {
+        if(root == node)
+            return true;
+        return false;
+    }
 }
