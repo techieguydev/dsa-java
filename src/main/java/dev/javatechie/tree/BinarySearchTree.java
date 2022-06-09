@@ -31,4 +31,8 @@ public class BinarySearchTree<E extends Comparable<E>> {
     public boolean isEmpty() {
         return size == 0;
     }
+
+    public int size() {
+        return size;
+    }
 }
