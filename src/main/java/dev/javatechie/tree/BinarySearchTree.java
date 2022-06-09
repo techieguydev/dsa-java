@@ -42,4 +42,8 @@ public class BinarySearchTree<E extends Comparable<E>> {
             return true;
         return false;
     }
+
+    public boolean isLeaf(final Node<E> node) {
+        return false;
+    }
 }
