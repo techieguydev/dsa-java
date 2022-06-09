@@ -19,6 +19,7 @@ public class BinarySearchTree<E extends Comparable<E>> {
     }
 
     private int size = 0;
+    private Node<E> root;
 
     public Node<E> addNewNode(final Node<E> rootNode, final E data) {
         return null;
