@@ -17,4 +17,8 @@ public class AVLTree<E> {
             this.right = null;
         }
     }
+
+    public void addNode(final E data) {
+
+    }
 }
