@@ -12,7 +12,9 @@ public class AVLTree<E> {
         private Node<T> right;
 
         public Node(final T data){
-
+            this.data = data;
+            this.left = null;
+            this.right = null;
         }
     }
 }
