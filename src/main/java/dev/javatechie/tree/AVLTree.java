@@ -23,11 +23,11 @@ public class AVLTree<E> {
      *
      * */
     private class Node<T> {
-        //
+        // data element
         private T data;
-        //
+        // Left node of a tree
         private Node<T> left;
-        //
+        // Right node of a tree
         private Node<T> right;
 
         /**
