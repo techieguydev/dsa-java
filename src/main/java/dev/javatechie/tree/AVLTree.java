@@ -17,6 +17,10 @@ public class AVLTree<E> {
 
     }
 
+    /**
+     * Node class of a Tree
+     *
+     * */
     private class Node<T> {
         private T data;
         private Node<T> left;
