@@ -19,6 +19,7 @@ public class AVLTree<E> {
 
     /**
      * Node class of a Tree
+     * @param <T> the type parameter
      *
      * */
     private class Node<T> {
