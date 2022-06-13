@@ -4,6 +4,7 @@ package dev.javatechie.tree;
  * The type Avl tree.
  *
  * @param <E> the type parameter
+ * @author Qadir
  */
 public class AVLTree<E> {
     /**
