@@ -8,7 +8,7 @@ package dev.javatechie.tree;
  */
 public class AVLTree<E> {
     /**
-     * The entry point of application.
+     * The entry point of the application.
      *
      * @param args the input arguments
      */
