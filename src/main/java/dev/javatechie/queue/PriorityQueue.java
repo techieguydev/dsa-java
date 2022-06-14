@@ -14,4 +14,8 @@ public class PriorityQueue<E extends Comparable<E>> {
             this.next = null;
         }
     }
+
+    private int size = 0;
+    private Node<E> tail;
+    private Node<E> head;
 }
