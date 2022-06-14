@@ -9,6 +9,9 @@ public class PriorityQueue<E extends Comparable<E>> {
         private T data;
         private Node next;
 
-
+        public Node(final T data) {
+            this.data = data;
+            this.next = null;
+        }
     }
 }
