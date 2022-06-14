@@ -22,4 +22,8 @@ public class PriorityQueue<E extends Comparable<E>> {
     private int size() {
         return size;
     }
+
+    private boolean isEmpty() {
+        return size == 0;
+    }
 }
