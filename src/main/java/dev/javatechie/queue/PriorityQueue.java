@@ -18,4 +18,8 @@ public class PriorityQueue<E extends Comparable<E>> {
     private int size = 0;
     private Node<E> tail;
     private Node<E> head;
+
+    private int size() {
+        return size;
+    }
 }
