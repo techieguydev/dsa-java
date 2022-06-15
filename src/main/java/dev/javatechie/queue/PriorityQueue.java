@@ -28,7 +28,7 @@ public class PriorityQueue<E extends Comparable<E>> {
     }
 
     private void printPriorityQueue() {
-
+        System.out.println("Printing PriorityQueue elements");
     }
 
 }
