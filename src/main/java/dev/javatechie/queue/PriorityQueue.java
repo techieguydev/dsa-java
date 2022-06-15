@@ -27,6 +27,8 @@ public class PriorityQueue<E extends Comparable<E>> {
         return size == 0;
     }
 
-    private
+    private void printPriorityQueue() {
+
+    }
 
 }
