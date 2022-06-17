@@ -8,4 +8,8 @@ public class Dequeues {
     private int[] head;
     private int[] tail;
     private int size = 0;
+
+    public Dequeues() {
+
+    }
 }
