@@ -5,5 +5,6 @@ public class Dequeues {
 
     }
 
-    private
+    private int[] head;
+    private int[] tail;
 }
