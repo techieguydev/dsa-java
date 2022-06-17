@@ -12,4 +12,8 @@ public class Dequeues {
     public Dequeues() {
 
     }
+
+    public Dequeues(int size) {
+
+    }
 }
