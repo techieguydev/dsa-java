@@ -4,4 +4,6 @@ public class Dequeues {
     public static void main(String[] args) {
 
     }
+
+    private
 }
