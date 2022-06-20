@@ -1,8 +1,10 @@
 package dev.javatechie.cache;
 
-public class LRUCache {
+import java.util.HashMap;
+import java.util.Map;
 
-    public static void main(String[] args) {
+public class LRUCache<K, V> {
 
-    }
+    private final Map<K, Map.Entry<K, V>> data = new HashMap<>();
+
 }
