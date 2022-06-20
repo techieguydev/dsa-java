@@ -17,4 +17,10 @@ public class LRUCache<K, V> {
     public LRUCache(int cap) {
 
     }
+
+    public void checkCapacity(final int capacity) {
+        if (capacity <= 0) {
+            throw new RuntimeException("Capacity should be greater than zero");
+        }
+    }
 }
