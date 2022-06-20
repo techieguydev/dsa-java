@@ -11,4 +11,10 @@ public class LRUCache<K, V> {
     private int cap;
     private static final int DEFAULT_CAP = 100;
 
+    public LRUCache() {
+
+    }
+    public LRUCache(int cap) {
+
+    }
 }
