@@ -24,6 +24,7 @@ public class LRUCache<K, V> {
             Map.Entry<K, V> evicted = evict();
             data.remove(evicted.getKey());
         }
+        this.cap = capacity;
     }
 
     public void checkCapacity(final int capacity) {
