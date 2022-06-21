@@ -50,7 +50,6 @@ public class LRUCache<K, V> {
         private K key;
         private V value;
 
-
         public Entry() {
 
         }
@@ -62,7 +61,37 @@ public class LRUCache<K, V> {
             this.value = value;
         }
 
+        public Entry<K, V> getPreEntry() {
+            return preEntry;
+        }
 
+        public void setPreEntry(Entry<K, V> preEntry) {
+            this.preEntry = preEntry;
+        }
+
+        public Entry<K, V> getNextEntry() {
+            return nextEntry;
+        }
+
+        public void setNextEntry(Entry<K, V> nextEntry) {
+            this.nextEntry = nextEntry;
+        }
+
+        public K getKey() {
+            return key;
+        }
+
+        public void setKey(K key) {
+            this.key = key;
+        }
+
+        public V getValue() {
+            return value;
+        }
+
+        public void setValue(V value) {
+            this.value = value;
+        }
 
     }
 }
