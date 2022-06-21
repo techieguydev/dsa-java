@@ -27,6 +27,13 @@ public class LRUCache<K, V> {
         this.cap = capacity;
     }
 
+    private Map.Entry<K, V> evict() {
+        if (head == null)
+            throw new RuntimeException("Cache can't be empty");
+        return null;
+    }
+
+
     public void checkCapacity(final int capacity) {
         if (capacity <= 0) {
             throw new RuntimeException("Capacity should be greater than zero");
