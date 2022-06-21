@@ -18,6 +18,13 @@ public class LRUCache<K, V> {
 
     }
 
+    public void setCapacity(final int capacity) {
+        checkCapacity(capacity);
+        for (int size = data.size(); size > capacity; size--) {
+
+        }
+    }
+
     public void checkCapacity(final int capacity) {
         if (capacity <= 0) {
             throw new RuntimeException("Capacity should be greater than zero");
