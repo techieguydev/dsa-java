@@ -30,6 +30,9 @@ public class LRUCache<K, V> {
     private Map.Entry<K, V> evict() {
         if (head == null)
             throw new RuntimeException("Cache can't be empty");
+
+        Map.Entry<K, V> evicted = head;
+        head = evicted.getNextEntry();
         return null;
     }
 
