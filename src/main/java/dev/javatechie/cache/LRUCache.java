@@ -55,7 +55,12 @@ public class LRUCache<K, V> {
         }
 
         public Entry(final Entry<K, V> preEntry, final Entry<K, V> nextEntry, final K key, final V value) {
-
+            this.preEntry = preEntry;
+            this.nextEntry = nextEntry;
+            this.key = key;
+            this.value = value;
         }
+
+
     }
 }
