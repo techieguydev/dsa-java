@@ -50,6 +50,7 @@ public class LRUCache<K, V> {
         private K key;
         private V value;
 
+
         public Entry() {
 
         }
@@ -60,6 +61,8 @@ public class LRUCache<K, V> {
             this.key = key;
             this.value = value;
         }
+
+
 
     }
 }
