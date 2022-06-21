@@ -47,5 +47,15 @@ public class LRUCache<K, V> {
     static final class Entry<K, V> {
         private Entry<K, V> preEntry;
         private Entry<K, V> nextEntry;
+        private K key;
+        private V value;
+
+        public Entry() {
+
+        }
+
+        public Entry(final Entry<K, V> preEntry, final Entry<K, V> nextEntry, final K key, final V value) {
+
+        }
     }
 }
