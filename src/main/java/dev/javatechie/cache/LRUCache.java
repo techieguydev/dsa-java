@@ -24,6 +24,7 @@ public class LRUCache<K, V> {
             Map.Entry<K, V> evicted = evict();
             data.remove(evicted.getKey());
         }
+
         this.cap = capacity;
     }
 
@@ -33,6 +34,7 @@ public class LRUCache<K, V> {
 
         Map.Entry<K, V> evicted = head;
         head = evicted.getNextEntry();
+        head.setPreEntry(null);
 
         return null;
     }
@@ -42,6 +44,7 @@ public class LRUCache<K, V> {
         if (capacity <= 0) {
             throw new RuntimeException("Capacity should be greater than zero");
         }
+
     }
 
     static final class Entry<K, V> {
