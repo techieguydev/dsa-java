@@ -35,8 +35,9 @@ public class LRUCache<K, V> {
         Map.Entry<K, V> evicted = head;
         head = evicted.getNextEntry();
         head.setPreEntry(null);
+        evicted.setNextEntry(null);
 
-        return null;
+        return evicted;
     }
 
 
