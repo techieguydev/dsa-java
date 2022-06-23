@@ -53,11 +53,15 @@ public class LRUCache<K, V> {
             return null;
         }
         final Entry<K, V> entry = data.get(key);
-        modeNodeToLast(entry);
+        moveNodeToLast(entry);
         return entry.getValue();
     }
 
-
+    private void moveNodeToLast(final Entry<K, V> entry) {
+        if(tail == entry) {
+            return;
+        }
+    }
 
     static final class Entry<K, V> {
         private Entry<K, V> preEntry;
