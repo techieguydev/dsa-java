@@ -5,9 +5,9 @@ import java.util.Map;
 
 public class LRUCache<K, V> {
 
-    private final Map<K, Map.Entry<K, V>> data = new HashMap<>();
-    private Map.Entry<K, V> head;
-    private Map.Entry<K, V> tail;
+    private final Map<K, Entry<K, V>> data = new HashMap<>();
+    private Entry<K, V> head;
+    private Entry<K, V> tail;
     private int cap;
     private static final int DEFAULT_CAP = 100;
 
@@ -28,11 +28,11 @@ public class LRUCache<K, V> {
         this.cap = capacity;
     }
 
-    private Map.Entry<K, V> evict() {
+    private Entry<K, V> evict() {
         if (head == null)
             throw new RuntimeException("Cache can't be empty");
 
-        Map.Entry<K, V> evicted = head;
+        final Entry<K, V> evicted = head;
         head = evicted.getNextEntry();
         head.setPreEntry(null);
         evicted.setNextEntry(null);
@@ -52,6 +52,7 @@ public class LRUCache<K, V> {
         if(!data.containsKey(key)) {
             return null;
         }
+        final Entry<K, V> entry = data.get(key);
     }
 
     static final class Entry<K, V> {
