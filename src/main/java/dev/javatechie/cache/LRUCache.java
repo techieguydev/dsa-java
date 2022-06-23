@@ -48,6 +48,12 @@ public class LRUCache<K, V> {
 
     }
 
+    public V get(final K key) {
+        if(!data.containsKey(key)) {
+            return null;
+        }
+    }
+
     static final class Entry<K, V> {
         private Entry<K, V> preEntry;
         private Entry<K, V> nextEntry;
