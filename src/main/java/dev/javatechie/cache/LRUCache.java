@@ -53,6 +53,8 @@ public class LRUCache<K, V> {
             return null;
         }
         final Entry<K, V> entry = data.get(key);
+        modeNodeToLast(entry);
+        return entry.getValue();
     }
 
     static final class Entry<K, V> {
