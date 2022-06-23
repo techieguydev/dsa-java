@@ -41,7 +41,7 @@ public class LRUCache<K, V> {
     }
 
 
-    public void checkCapacity(final int capacity) {
+    private void checkCapacity(final int capacity) {
         if (capacity <= 0) {
             throw new RuntimeException("Capacity should be greater than zero");
         }
@@ -56,6 +56,8 @@ public class LRUCache<K, V> {
         modeNodeToLast(entry);
         return entry.getValue();
     }
+
+
 
     static final class Entry<K, V> {
         private Entry<K, V> preEntry;
