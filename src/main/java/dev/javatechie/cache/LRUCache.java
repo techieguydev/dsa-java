@@ -82,7 +82,12 @@ public class LRUCache<K, V> {
     }
 
     public void put(final K key, final V value) {
-
+        if (data.containsKey(key)) {
+            final Entry<K, V> existingEntry = data.get(key);
+            existingEntry.setValue(value);
+            moveNodeToLast(existingEntry);
+            return;
+        }
     }
 
     static final class Entry<K, V> {
