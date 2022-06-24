@@ -61,6 +61,9 @@ public class LRUCache<K, V> {
         if(tail == entry) {
             return;
         }
+
+        final Entry<K, V> preEntry = entry.getPreEntry();
+
     }
 
     static final class Entry<K, V> {
