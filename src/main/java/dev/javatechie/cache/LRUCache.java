@@ -67,6 +67,10 @@ public class LRUCache<K, V> {
         if(preEntry != null) {
             preEntry.setNextEntry(nextEntry);
         }
+
+        if(nextEntry != null) {
+            nextEntry.setPreEntry(preEntry);
+        }
     }
 
     static final class Entry<K, V> {
