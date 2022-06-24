@@ -63,7 +63,10 @@ public class LRUCache<K, V> {
         }
 
         final Entry<K, V> preEntry = entry.getPreEntry();
-
+        final Entry<K, V> nextEntry = entry.getNextEntry();
+        if(preEntry != null) {
+            preEntry.setNextEntry(nextEntry);
+        }
     }
 
     static final class Entry<K, V> {
