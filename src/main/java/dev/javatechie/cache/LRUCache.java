@@ -81,6 +81,10 @@ public class LRUCache<K, V> {
         tail = entry;
     }
 
+    public void put(final K key, final V value) {
+
+    }
+
     static final class Entry<K, V> {
         private Entry<K, V> preEntry;
         private Entry<K, V> nextEntry;
