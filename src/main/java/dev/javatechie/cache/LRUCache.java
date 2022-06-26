@@ -184,6 +184,11 @@ public class LRUCache<K, V> {
             return value;
         }
 
+        /**
+         * Sets value.
+         *
+         * @param value the value
+         */
         public void setValue(V value) {
             this.value = value;
         }
