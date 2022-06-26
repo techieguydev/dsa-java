@@ -127,6 +127,11 @@ public class LRUCache<K, V> {
             return key;
         }
 
+        /**
+         * Sets key.
+         *
+         * @param key the key
+         */
         public void setKey(K key) {
             this.key = key;
         }
