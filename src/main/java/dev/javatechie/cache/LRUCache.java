@@ -121,22 +121,47 @@ public class LRUCache<K, V> {
             this.value = value;
         }
 
+        /**
+         * Gets pre entry.
+         *
+         * @return the pre entry
+         */
         public Entry<K, V> getPreEntry() {
             return preEntry;
         }
 
+        /**
+         * Sets pre entry.
+         *
+         * @param preEntry the pre entry
+         */
         public void setPreEntry(Entry<K, V> preEntry) {
             this.preEntry = preEntry;
         }
 
+        /**
+         * Gets next entry.
+         *
+         * @return the next entry
+         */
         public Entry<K, V> getNextEntry() {
             return nextEntry;
         }
 
+        /**
+         * Sets next entry.
+         *
+         * @param nextEntry the next entry
+         */
         public void setNextEntry(Entry<K, V> nextEntry) {
             this.nextEntry = nextEntry;
         }
 
+        /**
+         * Gets key.
+         *
+         * @return the key
+         */
         public K getKey() {
             return key;
         }
