@@ -90,6 +90,12 @@ public class LRUCache<K, V> {
         }
     }
 
+    /**
+     * The type Entry.
+     *
+     * @param <K> the type parameter
+     * @param <V> the type parameter
+     */
     static final class Entry<K, V> {
         private Entry<K, V> preEntry;
         private Entry<K, V> nextEntry;
@@ -100,6 +106,14 @@ public class LRUCache<K, V> {
 
         }
 
+        /**
+         * Instantiates a new Entry.
+         *
+         * @param preEntry  the pre entry
+         * @param nextEntry the next entry
+         * @param key       the key
+         * @param value     the value
+         */
         public Entry(final Entry<K, V> preEntry, final Entry<K, V> nextEntry, final K key, final V value) {
             this.preEntry = preEntry;
             this.nextEntry = nextEntry;
