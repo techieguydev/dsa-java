@@ -81,6 +81,12 @@ public class LRUCache<K, V> {
         tail = entry;
     }
 
+    /**
+     * Put.
+     *
+     * @param key   the key
+     * @param value the value
+     */
     public void put(final K key, final V value) {
         if (data.containsKey(key)) {
             final Entry<K, V> existingEntry = data.get(key);
