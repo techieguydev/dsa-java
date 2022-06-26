@@ -175,6 +175,11 @@ public class LRUCache<K, V> {
             this.key = key;
         }
 
+        /**
+         * Gets value.
+         *
+         * @return the value
+         */
         public V getValue() {
             return value;
         }
