@@ -11,6 +11,9 @@ public class LRUCache<K, V> {
     private int cap;
     private static final int DEFAULT_CAP = 100;
 
+    /**
+     * Instantiates a new Lru cache.
+     */
     public LRUCache() {
 
     }
