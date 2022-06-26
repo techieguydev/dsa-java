@@ -48,6 +48,12 @@ public class LRUCache<K, V> {
 
     }
 
+    /**
+     * Get v.
+     *
+     * @param key the key
+     * @return the v
+     */
     public V get(final K key) {
         if(!data.containsKey(key)) {
             return null;
