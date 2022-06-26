@@ -18,6 +18,11 @@ public class LRUCache<K, V> {
 
     }
 
+    /**
+     * Sets capacity.
+     *
+     * @param capacity the capacity
+     */
     public void setCapacity(final int capacity) {
         checkCapacity(capacity);
         for (int size = data.size(); size > capacity; size--) {
