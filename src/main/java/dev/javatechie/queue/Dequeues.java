@@ -13,6 +13,11 @@ public class Dequeues {
 
     }
 
+    /**
+     * Instantiates a new Dequeues.
+     *
+     * @param size the size
+     */
     public Dequeues(int size) {
 
     }
