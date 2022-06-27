@@ -1,6 +1,14 @@
 package dev.javatechie.queue;
 
+/**
+ * The type Dequeues.
+ */
 public class Dequeues {
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
 
     }
@@ -9,6 +17,9 @@ public class Dequeues {
     private int[] tail;
     private int size = 0;
 
+    /**
+     * Instantiates a new Dequeues.
+     */
     public Dequeues() {
 
     }
