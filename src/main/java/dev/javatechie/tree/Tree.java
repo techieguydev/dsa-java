@@ -9,6 +9,12 @@ public class Tree<E extends Comparable<E>> {
 
     }
 
+    /**
+     * Add node.
+     *
+     * @param node the node
+     * @param data the data
+     */
     public void addNode(final Node<E> node, final E data) {
 
     }
