@@ -1,5 +1,8 @@
 package dev.javatechie.hashing;
 
+/**
+ * The type Hashing.
+ */
 public class Hashing {
     /**
      * The entry point of application.
