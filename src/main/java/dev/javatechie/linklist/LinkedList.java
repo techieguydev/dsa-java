@@ -7,6 +7,11 @@ import java.util.List;
 import java.util.Timer;
 
 public class LinkedList {
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
 
         final List<String> list = new ArrayList<>();
