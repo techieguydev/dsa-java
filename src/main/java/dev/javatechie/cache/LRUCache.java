@@ -3,6 +3,12 @@ package dev.javatechie.cache;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * The type Lru cache.
+ *
+ * @param <K> the type parameter
+ * @param <V> the type parameter
+ */
 public class LRUCache<K, V> {
 
     private final Map<K, Entry<K, V>> data = new HashMap<>();
@@ -128,6 +134,9 @@ public class LRUCache<K, V> {
         private K key;
         private V value;
 
+        /**
+         * Instantiates a new Entry.
+         */
         public Entry() {
 
         }
