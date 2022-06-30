@@ -6,6 +6,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Timer;
 
+/**
+ * The type Linked list.
+ */
 public class LinkedList {
     /**
      * The entry point of application.
