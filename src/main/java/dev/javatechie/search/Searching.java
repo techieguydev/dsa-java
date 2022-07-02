@@ -1,5 +1,8 @@
 package dev.javatechie.search;
 
+/**
+ * The type Searching.
+ */
 public class Searching {
     /**
      * The entry point of application.
