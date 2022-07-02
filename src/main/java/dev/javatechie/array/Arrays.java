@@ -1,5 +1,8 @@
 package dev.javatechie.array;
 
+/**
+ * The type Arrays.
+ */
 public class Arrays {
     /**
      * The entry point of application.
