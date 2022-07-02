@@ -1,5 +1,8 @@
 package dev.javatechie.queue;
 
+/**
+ * The type Queue.
+ */
 public class Queue {
     /**
      * The entry point of application.
