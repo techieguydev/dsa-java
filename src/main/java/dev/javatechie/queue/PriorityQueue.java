@@ -1,5 +1,10 @@
 package dev.javatechie.queue;
 
+/**
+ * The type Priority queue.
+ *
+ * @param <E> the type parameter
+ */
 public class PriorityQueue<E extends Comparable<E>> {
     /**
      * The entry point of application.
@@ -14,6 +19,11 @@ public class PriorityQueue<E extends Comparable<E>> {
         private T data;
         private Node next;
 
+        /**
+         * Instantiates a new Node.
+         *
+         * @param data the data
+         */
         public Node(final T data) {
             this.data = data;
             this.next = null;
