@@ -1,5 +1,8 @@
 package dev.javatechie.search;
 
+/**
+ * The type Exponential search.
+ */
 public class ExponentialSearch {
     /**
      * The entry point of application.
