@@ -1,5 +1,8 @@
 package dev.javatechie.search;
 
+/**
+ * The type Jump search.
+ */
 public class JumpSearch {
     /**
      * The entry point of application.
