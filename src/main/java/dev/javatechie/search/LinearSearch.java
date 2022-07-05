@@ -1,5 +1,8 @@
 package dev.javatechie.search;
 
+/**
+ * The type Linear search.
+ */
 public class LinearSearch {
     /**
      * The entry point of application.
