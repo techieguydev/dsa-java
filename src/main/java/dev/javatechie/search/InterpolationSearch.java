@@ -1,5 +1,8 @@
 package dev.javatechie.search;
 
+/**
+ * The type Interpolation search.
+ */
 public class InterpolationSearch {
     /**
      * The entry point of application.
