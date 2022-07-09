@@ -1,5 +1,8 @@
 package dev.javatechie.heap;
 
+/**
+ * The type Binomial heap.
+ */
 public class BinomialHeap {
     /**
      * The entry point of application.
