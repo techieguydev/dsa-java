@@ -1,5 +1,8 @@
 package dev.javatechie.heap;
 
+/**
+ * The type Binary heap.
+ */
 public class BinaryHeap {
     /**
      * The entry point of application.
