@@ -1,5 +1,8 @@
 package dev.javatechie.heap;
 
+/**
+ * The type Leftist heap.
+ */
 public class LeftistHeap {
     /**
      * The entry point of application.
