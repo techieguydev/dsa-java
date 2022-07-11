@@ -1,5 +1,8 @@
 package dev.javatechie.heap;
 
+/**
+ * The type Kary heap.
+ */
 public class KaryHeap {
     /**
      * The entry point of application.
