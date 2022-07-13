@@ -10,7 +10,7 @@ public class BinaryHeap {
      * @param args the input arguments
      */
     public static void main(String[] args) {
-        System.out.println();
+        System.out.println("Binary heap started");
     }
 
 }
