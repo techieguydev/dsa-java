@@ -1,5 +1,8 @@
 package dev.javatechie.tree;
 
+/**
+ * The type Continous tree.
+ */
 public class ContinousTree {
     /**
      * The entry point of application.
