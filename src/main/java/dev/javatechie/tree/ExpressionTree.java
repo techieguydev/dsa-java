@@ -10,6 +10,6 @@ public class ExpressionTree {
      * @param args the input arguments
      */
     public static void main(String[] args) {
-        System.out.println("Expression tree starts");
+        System.out.println("Expression tree starts"
     }
 }
