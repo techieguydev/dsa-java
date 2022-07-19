@@ -10,6 +10,6 @@ public class BinomialHeap {
      * @param args the input arguments
      */
     public static void main(String[] args) {
-        System.out.println("=== Binomial ");
+        System.out.println("=== Binomial Heap ");
     }
 }
