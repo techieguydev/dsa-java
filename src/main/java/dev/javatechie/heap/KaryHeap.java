@@ -10,6 +10,6 @@ public class KaryHeap {
      * @param args the input arguments
      */
     public static void main(String[] args) {
-        System.out.println("=== Kary ");
+        System.out.println("=== Kary Heap ");
     }
 }
