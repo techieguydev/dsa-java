@@ -12,5 +12,4 @@ public class KaryHeap {
     public static void main(String[] args) {
         System.out.println("=== Kary Heap ===");
     }
-
 }
