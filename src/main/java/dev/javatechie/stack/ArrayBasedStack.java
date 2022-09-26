@@ -13,7 +13,7 @@ public class ArrayBasedStack {
      * @param args the input arguments
      */
     public static void main(String[] args) {
-        System.out.println("=== Array Based Stack ");
+        System.out.println("=== Array Based Stack =");
         ArrayBasedStack stack = new ArrayBasedStack(10);
         stack.push("Item1");
         stack.push("Item2");
