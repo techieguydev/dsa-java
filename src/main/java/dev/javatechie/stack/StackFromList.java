@@ -15,7 +15,7 @@ public class StackFromList<T> {
      * @param args the input arguments
      */
     public static void main(String[] args) {
-        System.out.println("=== List based");
+        System.out.println("=== List based stack ");
         final StackFromList<String> stack = new StackFromList<>();
         stack.push("A");
         stack.push("B");
