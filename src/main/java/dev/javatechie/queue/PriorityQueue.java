@@ -12,7 +12,7 @@ public class PriorityQueue<E extends Comparable<E>> {
      * @param args the input arguments
      */
     public static void main(String[] args) {
-        System.out.println("=== Priority Queue");
+        System.out.println("=== Priority Queue ===");
     }
 
     private class Node<T> {
