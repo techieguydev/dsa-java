@@ -14,7 +14,7 @@ public class ArrayBasedQueue {
      * @param args the input arguments
      */
     public static void main(String[] args) {
-        System.out.println("=== Array Based ");
+        System.out.println("=== Array Based Queue");
         final ArrayBasedQueue queue = new ArrayBasedQueue(10);
         System.out.println(queue.size());
 
