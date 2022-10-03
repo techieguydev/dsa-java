@@ -10,6 +10,6 @@ public class Graph {
      * @param args the input arguments
      */
     public static void main(String[] args) {
-        System.out.println("===");
+        System.out.println("=== ");
     }
 }
