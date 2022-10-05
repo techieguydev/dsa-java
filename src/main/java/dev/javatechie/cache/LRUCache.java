@@ -6,7 +6,7 @@ import java.util.Map;
 /**
  * The type Lru cache.
  *
- * @param <K> the type parameter
+ * @param <K> key, the type parameter
  * @param <V> the type parameter
  */
 public class LRUCache<K, V> {
