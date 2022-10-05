@@ -69,7 +69,7 @@ public class LRUCache<K, V> {
     }
 
     /**
-     * Get the .
+     * Get the value.
      *
      * @param key the key
      * @return the v
