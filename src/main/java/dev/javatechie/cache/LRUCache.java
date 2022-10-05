@@ -27,7 +27,7 @@ public class LRUCache<K, V> {
     /**
      * Instantiates a new Lru cache.
      *
-     * @param cap the cap
+     * @param cap the cap, input
      */
     public LRUCache(int cap) {
 
