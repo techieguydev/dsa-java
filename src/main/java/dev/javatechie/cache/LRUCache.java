@@ -72,7 +72,7 @@ public class LRUCache<K, V> {
      * Get the value.
      *
      * @param key the key
-     * @return the v
+     * @return the value
      */
     public V get(final K key) {
         if(!data.containsKey(key)) {
