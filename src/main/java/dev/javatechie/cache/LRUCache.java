@@ -36,7 +36,7 @@ public class LRUCache<K, V> {
     /**
      * Sets capacity.
      *
-     * @param capacity the capacity
+     * @param capacity the capacity, input param
      */
     public void setCapacity(final int capacity) {
         checkCapacity(capacity);
