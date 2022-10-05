@@ -57,7 +57,6 @@ public class LRUCache<K, V> {
         head = evicted.getNextEntry();
         head.setPreEntry(null);
         evicted.setNextEntry(null);
-
         return evicted;
     }
 
