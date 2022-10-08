@@ -16,7 +16,7 @@ public class LinkedList {
      * @param args the input arguments
      */
     public static void main(String[] args) {
-        System
+        System.out
 
         final List<String> list = new ArrayList<>();
         list.add("A");
