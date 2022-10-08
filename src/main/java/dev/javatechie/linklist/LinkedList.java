@@ -16,7 +16,7 @@ public class LinkedList {
      * @param args the input arguments
      */
     public static void main(String[] args) {
-        System.out.println("=== LinkedList Start");
+        System.out.println("=== LinkedList Start ===");
 
         final List<String> list = new ArrayList<>();
         list.add("A");
