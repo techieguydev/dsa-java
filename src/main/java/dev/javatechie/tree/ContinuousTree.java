@@ -10,6 +10,6 @@ public class ContinuousTree {
      * @param args the input arguments
      */
     public static void main(String[] args) {
-        System.out.println("=== Continuous Tree Start ");
+        System.out.println("=== Continuous Tree Start ===");
     }
 }
