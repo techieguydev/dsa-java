@@ -1,7 +1,7 @@
 package dev.javatechie.tree;
 
 /**
- * The type Continous tree.
+ * The type Continuous tree.
  */
 public class ContinuousTree {
     /**
