@@ -13,7 +13,7 @@ public class BinaryTree<E extends Comparable<E>> {
      * @param args the input arguments
      */
     public static void main(String[] args) {
-        System.out.println("=== Binary Tree With ");
+        System.out.println("=== Binary Tree With Generic");
     }
 
     private Node<E> root;
