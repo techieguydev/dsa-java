@@ -16,7 +16,7 @@ public class LFUCache<K, V> {
         public Node(final K key, final V value, int frequency) {
             this.key = key;
             this.value = value;
-
+            this.frequency = frequency;
         }
     }
 }
