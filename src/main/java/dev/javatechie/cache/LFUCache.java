@@ -8,5 +8,13 @@ public class LFUCache<K, V> {
         private int frequency;
         private Node previous;
         private Node next;
+
+        public Node() {
+
+        }
+
+        public Node(final K key, final V value, int frequency) {
+            t
+        }
     }
 }
