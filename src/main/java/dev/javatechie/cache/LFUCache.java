@@ -1,4 +1,5 @@
 package dev.javatechie.cache;
 
-public class LFUCache {
+public class LFUCache<K, V> {
+
 }
