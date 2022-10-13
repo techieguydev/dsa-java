@@ -6,6 +6,7 @@ public class LFUCache<K, V> {
         private K key;
         private V value;
         private int frequency;
-
+        private Node previous;
+        private Node next;
     }
 }
