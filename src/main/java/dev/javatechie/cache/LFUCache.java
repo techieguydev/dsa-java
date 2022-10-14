@@ -25,6 +25,6 @@ public class LFUCache<K, V> {
         private Node tail;
         private Map<K, Node> map = null;
         private Integer capacity;
-        private static final int
+        private static final int DEFAULT_CAPACITY = 100;
     }
 }
