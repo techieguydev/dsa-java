@@ -1,5 +1,7 @@
 package dev.javatechie.cache;
 
+import java.util.Map;
+
 public class LFUCache<K, V> {
 
     private class Node {
@@ -18,5 +20,10 @@ public class LFUCache<K, V> {
             this.value = value;
             this.frequency = frequency;
         }
+
+        private Node head;
+        private Node tail;
+        private Map<K, Node> map = null;
+
     }
 }
