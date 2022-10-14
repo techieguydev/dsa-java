@@ -1,5 +1,6 @@
 package dev.javatechie.cache;
 
+import java.util.HashMap;
 import java.util.Map;
 
 public class LFUCache<K, V> {
@@ -34,6 +35,6 @@ public class LFUCache<K, V> {
 
     public LFUCache(final Integer capacity) {
         this.capacity = capacity;
-
+        this.map = new HashMap<>();
     }
 }
