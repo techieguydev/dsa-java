@@ -6,8 +6,8 @@ import java.util.Map;
 /**
  * The type Lfu cache.
  *
- * @param <K> the type parameter
- * @param <V> the type parameter
+ * @param <K> the key type parameter
+ * @param <V> the value type parameter
  */
 public class LFUCache<K, V> {
 
