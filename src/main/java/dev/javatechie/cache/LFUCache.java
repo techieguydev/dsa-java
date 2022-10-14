@@ -24,6 +24,6 @@ public class LFUCache<K, V> {
         private Node head;
         private Node tail;
         private Map<K, Node> map = null;
-
+        private Integer capacity;
     }
 }
