@@ -20,11 +20,15 @@ public class LFUCache<K, V> {
             this.value = value;
             this.frequency = frequency;
         }
+    }
 
-        private Node head;
-        private Node tail;
-        private Map<K, Node> map = null;
-        private Integer capacity;
-        private static final int DEFAULT_CAPACITY = 100;
+    private Node head;
+    private Node tail;
+    private Map<K, Node> map = null;
+    private Integer capacity;
+    private static final int DEFAULT_CAPACITY = 100;
+
+    public LFUCache() {
+        this.capacity = DEFAULT_CAPACITY;
     }
 }
