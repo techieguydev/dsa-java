@@ -32,7 +32,8 @@ public class LFUCache<K, V> {
         this.capacity = DEFAULT_CAPACITY;
     }
 
-    public LFUCache() {
+    public LFUCache(final Integer capacity) {
+        this.capacity = capacity;
 
     }
 }
