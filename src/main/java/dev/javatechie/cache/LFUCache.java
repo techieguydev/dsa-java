@@ -62,6 +62,12 @@ public class LFUCache<K, V> {
         this.map = new HashMap<>();
     }
 
+    /**
+     * Get v.
+     *
+     * @param key the key
+     * @return the v
+     */
     public V get(final K key) {
         if(this.map.get(key) == null) {
             return null;
