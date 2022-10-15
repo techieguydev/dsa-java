@@ -63,6 +63,8 @@ public class LFUCache<K, V> {
     }
 
     public V get(final K key) {
-
+        if(this.map.get(key) == null) {
+            return null;
+        }
     }
 }
