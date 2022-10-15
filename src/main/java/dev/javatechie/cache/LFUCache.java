@@ -66,7 +66,7 @@ public class LFUCache<K, V> {
      * Get v.
      *
      * @param key the key param
-     * @return the v
+     * @return the value
      */
     public V get(final K key) {
         if(this.map.get(key) == null) {
