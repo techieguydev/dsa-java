@@ -61,4 +61,8 @@ public class LFUCache<K, V> {
         this.capacity = capacity;
         this.map = new HashMap<>();
     }
+
+    public V get(final K key) {
+
+    }
 }
