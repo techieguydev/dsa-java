@@ -72,5 +72,6 @@ public class LFUCache<K, V> {
         node.frequency += 1;
         addNodeWithUpdatedFrequency(node);
 
+        return node.value;
     }
 }
