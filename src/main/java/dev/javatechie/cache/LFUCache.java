@@ -70,6 +70,7 @@ public class LFUCache<K, V> {
         final Node node = map.get(key);
         removeNode(node);
         node.frequency += 1;
+        addNodeWithUpdatedFrequency(node);
 
     }
 }
