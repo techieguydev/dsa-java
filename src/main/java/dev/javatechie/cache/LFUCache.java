@@ -91,6 +91,7 @@ public class LFUCache<K, V> {
         } else {
             if (map.size() >= capacity) {
                 map.remove(this.head.key);
+                removeNode(head);
             }
         }
     }
