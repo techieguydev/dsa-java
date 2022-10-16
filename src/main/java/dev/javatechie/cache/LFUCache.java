@@ -80,4 +80,8 @@ public class LFUCache<K, V> {
 
         return node.value;
     }
+
+    public void put(final K key, final V value) {
+
+    }
 }
