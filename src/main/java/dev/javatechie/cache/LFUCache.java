@@ -88,6 +88,10 @@ public class LFUCache<K, V> {
             node.frequency += 1;
             removeNode(node);
             addNodeWithUpdatedFrequency(node);
+        } else {
+            if (map.size() >= capacity) {
+
+            }
         }
     }
 }
