@@ -93,6 +93,7 @@ public class LFUCache<K, V> {
                 map.remove(this.head.key);
                 removeNode(head);
             }
+            final Node node = new Node(key, value, 1);
         }
     }
 }
