@@ -90,7 +90,7 @@ public class LFUCache<K, V> {
             addNodeWithUpdatedFrequency(node);
         } else {
             if (map.size() >= capacity) {
-
+                map.remove(this.head.key);
             }
         }
     }
