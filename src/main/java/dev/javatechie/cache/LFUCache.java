@@ -94,6 +94,7 @@ public class LFUCache<K, V> {
                 removeNode(head);
             }
             final Node node = new Node(key, value, 1);
+            addNodeWithUpdatedFrequency(node);
         }
     }
 }
