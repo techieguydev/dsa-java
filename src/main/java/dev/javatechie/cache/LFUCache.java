@@ -95,6 +95,7 @@ public class LFUCache<K, V> {
             }
             final Node node = new Node(key, value, 1);
             addNodeWithUpdatedFrequency(node);
+            map.put(key, node);
         }
     }
 }
