@@ -98,4 +98,8 @@ public class LFUCache<K, V> {
             map.put(key, node);
         }
     }
+
+    private void addNodeWithUpdatedFrequency(final Node node) {
+
+    }
 }
