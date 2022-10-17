@@ -105,7 +105,9 @@ public class LFUCache<K, V> {
             while (temp != null) {
                 if(temp.frequency > node.frequency) {
                     if(temp == head) {
-
+                        node.next = temp;
+                        temp.previous = node;
+                        this.head = node;
                     }
                 }
             }
