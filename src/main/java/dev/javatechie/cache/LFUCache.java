@@ -110,7 +110,7 @@ public class LFUCache<K, V> {
                         this.head = node;
                         break;
                     } else {
-
+                        node.next = temp;
                     }
                 }
             }
