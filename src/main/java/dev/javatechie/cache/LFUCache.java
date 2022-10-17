@@ -100,6 +100,8 @@ public class LFUCache<K, V> {
     }
 
     private void addNodeWithUpdatedFrequency(final Node node) {
+        if(tail != null && head != null) {
 
+        }
     }
 }
