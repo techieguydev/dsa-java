@@ -109,6 +109,8 @@ public class LFUCache<K, V> {
                         temp.previous = node;
                         this.head = node;
                         break;
+                    } else {
+
                     }
                 }
             }
