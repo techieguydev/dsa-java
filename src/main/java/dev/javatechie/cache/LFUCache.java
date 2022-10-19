@@ -101,7 +101,7 @@ public class LFUCache<K, V> {
 
     private void addNodeWithUpdatedFrequency(final Node node) {
         if(tail != null && head != null) {
-            final Node temp = this.head;
+            Node temp = this.head;
             while (temp != null) {
                 if(temp.frequency > node.frequency) {
                     if(temp == head) {
@@ -116,6 +116,8 @@ public class LFUCache<K, V> {
                         node.previous = temp.previous;
                         break;
                     }
+                } else {
+                    temp = temp.next;
                 }
             }
         }
