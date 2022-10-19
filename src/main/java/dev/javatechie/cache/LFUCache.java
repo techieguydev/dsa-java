@@ -122,6 +122,8 @@ public class LFUCache<K, V> {
                         tail.next = node;
                         node.previous = tail;
                         node.next = null;
+                        tail = node;
+                        break;
                     }
                 }
             }
