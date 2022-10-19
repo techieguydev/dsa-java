@@ -113,7 +113,7 @@ public class LFUCache<K, V> {
                         node.next = temp;
                         node.previous = temp.previous;
                         temp.previous.next = node;
-
+                        node.previous = temp.previous;
                     }
                 }
             }
