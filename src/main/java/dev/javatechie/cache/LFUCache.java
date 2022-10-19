@@ -111,6 +111,9 @@ public class LFUCache<K, V> {
                         break;
                     } else {
                         node.next = temp;
+                        node.previous = temp.previous;
+
+
                     }
                 }
             }
