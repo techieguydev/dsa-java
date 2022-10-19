@@ -120,7 +120,7 @@ public class LFUCache<K, V> {
                     temp = temp.next;
                     if(temp == null) {
                         tail.next = node;
-                        node
+                        node.previous = tail;
                     }
                 }
             }
