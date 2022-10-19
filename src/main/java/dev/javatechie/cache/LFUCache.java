@@ -127,6 +127,9 @@ public class LFUCache<K, V> {
                     }
                 }
             }
+        } else {
+            tail = node;
+            head = tail;
         }
     }
 }
