@@ -118,6 +118,9 @@ public class LFUCache<K, V> {
                     }
                 } else {
                     temp = temp.next;
+                    if(temp == null) {
+
+                    }
                 }
             }
         }
