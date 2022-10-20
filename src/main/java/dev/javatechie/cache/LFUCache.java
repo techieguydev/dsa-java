@@ -136,6 +136,8 @@ public class LFUCache<K, V> {
     private void removeNode(final Node node) {
         if(node.previous != null) {
             node.previous.next = node.next;
+        } else {
+            this.head = node.next;
         }
     }
 }
