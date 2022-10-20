@@ -140,7 +140,7 @@ public class LFUCache<K, V> {
             this.head = node.next;
         }
         if(node.next != null) {
-
+            node.next.previous = node.previous;
         }
     }
 }
