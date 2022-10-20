@@ -139,5 +139,8 @@ public class LFUCache<K, V> {
         } else {
             this.head = node.next;
         }
+        if(node.next != null) {
+
+        }
     }
 }
