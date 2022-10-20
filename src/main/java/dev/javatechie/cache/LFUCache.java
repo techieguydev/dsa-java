@@ -132,4 +132,8 @@ public class LFUCache<K, V> {
             head = tail;
         }
     }
+
+    private void removeNode(final Node node) {
+
+    }
 }
