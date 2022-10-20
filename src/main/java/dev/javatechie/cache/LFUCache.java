@@ -141,6 +141,8 @@ public class LFUCache<K, V> {
         }
         if(node.next != null) {
             node.next.previous = node.previous;
+        } else {
+
         }
     }
 }
