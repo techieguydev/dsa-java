@@ -1,5 +1,9 @@
 package dev.javatechie.cache;
 
-public class MRUCache {
+import java.util.HashMap;
+import java.util.Map;
 
+public class MRUCache<K, V> {
+
+    private final Map<K, Entry<K, V>> data = new HashMap<>();
 }
