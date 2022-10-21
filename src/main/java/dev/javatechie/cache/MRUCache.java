@@ -9,5 +9,5 @@ public class MRUCache<K, V> {
     private Entry<K, V> head;
     private Entry<K, V> tail;
     private int cap;
-    private static final int DEFAULT_CAP =
+    private static final int DEFAULT_CAP = 100;
 }
