@@ -20,13 +20,6 @@ public class LFUCache<K, V> {
 
         /**
          * Instantiates a new Node.
-         */
-        public Node() {
-
-        }
-
-        /**
-         * Instantiates a new Node.
          *
          * @param key       the key
          * @param value     the value
