@@ -81,6 +81,12 @@ public class LFUCache<K, V> {
         return node.value;
     }
 
+    /**
+     * Put.
+     *
+     * @param key   the key
+     * @param value the value
+     */
     public void put(final K key, final V value) {
         if(map.containsKey(key)) {
             final Node node = map.get(key);
