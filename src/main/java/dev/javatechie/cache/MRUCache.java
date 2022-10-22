@@ -14,4 +14,5 @@ public class MRUCache<K, V> {
     public MRUCache() {
         setCapacity(DEFAULT_CAP);
     }
+
 }
