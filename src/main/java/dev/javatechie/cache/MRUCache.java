@@ -23,6 +23,7 @@ public class MRUCache<K, V> {
         }
         this.cap = newCapacity;
     }
+
     private void checkCapacity(int capacity) {
         if(capacity <= 0) {
             throw new RuntimeException("Capacity must be greater than zero!");
