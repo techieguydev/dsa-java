@@ -21,5 +21,6 @@ public class MRUCache<K, V> {
             Entry<K, V> evicted = evict();
             data.remove(evicted.getKey());
         }
+        this.cap = newCapacity;
     }
 }
