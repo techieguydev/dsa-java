@@ -19,7 +19,7 @@ public class MRUCache<K, V> {
         checkCapacity(newCapacity);
         for(int i = data.size(); i > newCapacity; i--) {
             Entry<K, V> evicted = evict();
-
+            data.remove(evicted.getKey());
         }
     }
 }
