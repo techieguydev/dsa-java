@@ -35,5 +35,6 @@ public class MRUCache<K, V> {
             throw new RuntimeException("Cache cannot be empty");
         }
         final Entry<K, V> evicted = this.tail;
+        tail = evicted.getPreEntry();
     }
 }
