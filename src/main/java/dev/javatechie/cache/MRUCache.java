@@ -31,6 +31,8 @@ public class MRUCache<K, V> {
     }
 
     private Entry<K, V> evict() {
-        if
+        if(head == null) {
+
+        }
     }
 }
