@@ -29,4 +29,8 @@ public class MRUCache<K, V> {
             throw new RuntimeException("Capacity must be greater than zero!");
         }
     }
+
+    private Entry<K, V> evict() {
+        if
+    }
 }
