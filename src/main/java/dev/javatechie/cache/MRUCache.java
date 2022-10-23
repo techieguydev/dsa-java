@@ -38,5 +38,7 @@ public class MRUCache<K, V> {
         tail = evicted.getPreEntry();
         tail.setNextEntry(null);
         evicted.setNextEntry(null);
+
+        return evicted;
     }
 }
