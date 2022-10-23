@@ -41,4 +41,8 @@ public class MRUCache<K, V> {
 
         return evicted;
     }
+
+    public MRUCache(int cap) {
+
+    }
 }
