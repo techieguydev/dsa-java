@@ -32,7 +32,7 @@ public class MRUCache<K, V> {
 
     private Entry<K, V> evict() {
         if(head == null) {
-
+            throw new RuntimeException("Cache cannot be empty");
         }
     }
 }
