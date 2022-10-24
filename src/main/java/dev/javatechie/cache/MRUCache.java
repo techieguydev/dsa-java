@@ -55,5 +55,5 @@ public class MRUCache<K, V> {
         return entry.getValue();
     }
 
-    public void put(fia)
+    public void put(final K key)
 }
