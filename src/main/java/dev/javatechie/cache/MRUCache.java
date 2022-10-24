@@ -45,4 +45,8 @@ public class MRUCache<K, V> {
     public MRUCache(int cap) {
         setCapacity(cap);
     }
+
+    public V get(final K key) {
+
+    }
 }
