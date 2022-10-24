@@ -51,5 +51,6 @@ public class MRUCache<K, V> {
             return null;
         }
         final Entry<K, V> entry = data.get(key);
+        moveEntryToLast(entry);
     }
 }
