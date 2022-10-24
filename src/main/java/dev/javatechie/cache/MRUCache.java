@@ -54,4 +54,6 @@ public class MRUCache<K, V> {
         moveEntryToLast(entry);
         return entry.getValue();
     }
+
+    public void put(fia)
 }
