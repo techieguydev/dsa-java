@@ -48,7 +48,8 @@ public class MRUCache<K, V> {
 
     public V get(final K key) {
         if(!data.containsKey(key)) {
-
+            return null;
         }
+        final Entry<K, V> entry = data.get(key);
     }
 }
