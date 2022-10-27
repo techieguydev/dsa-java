@@ -60,6 +60,7 @@ public class MRUCache<K, V> {
             final Entry<K, V> existringEntry = data.get(key);
             existringEntry.setValue(value);
             moveEntryToLast(existringEntry);
+            return;
         }
     }
 }
