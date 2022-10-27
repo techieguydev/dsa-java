@@ -63,7 +63,7 @@ public class MRUCache<K, V> {
             return;
         }
         Entry<K, V> newEntry;
-        if () {
+        if (data.size() == cap) {
 
         }
     }
