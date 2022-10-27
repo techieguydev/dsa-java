@@ -64,7 +64,7 @@ public class MRUCache<K, V> {
         }
         Entry<K, V> newEntry;
         if (data.size() == cap) {
-
+            newEntry = evict();
         }
     }
 }
