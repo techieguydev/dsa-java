@@ -62,5 +62,9 @@ public class MRUCache<K, V> {
             moveEntryToLast(existringEntry);
             return;
         }
+        Entry<K, V> newEntry;
+        if () {
+
+        }
     }
 }
