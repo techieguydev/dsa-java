@@ -67,7 +67,7 @@ public class MRUCache<K, V> {
             newEntry = evict();
             data.remove(newEntry.getKey());
         } else {
-
+            newEntry = new Entry<K, V>();
         }
     }
 }
