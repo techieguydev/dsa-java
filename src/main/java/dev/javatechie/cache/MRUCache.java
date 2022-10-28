@@ -76,6 +76,8 @@ public class MRUCache<K, V> {
     }
 
     private void addNewEntry(final Entry<K, V> entry) {
+        if(data.isEmpty()) {
 
+        }
     }
 }
