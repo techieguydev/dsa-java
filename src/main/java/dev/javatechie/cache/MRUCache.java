@@ -74,4 +74,8 @@ public class MRUCache<K, V> {
         addNewEntry(newEntry);
         data.put(key, newEntry);
     }
+
+    private void addNewEntry(final Entry<K, V> entry) {
+
+    }
 }
