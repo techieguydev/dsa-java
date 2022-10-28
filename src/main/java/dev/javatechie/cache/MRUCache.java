@@ -71,5 +71,6 @@ public class MRUCache<K, V> {
         }
         newEntry.setKey(key);
         newEntry.setValue(value);
+        addNewEntry(newEntry);
     }
 }
