@@ -69,5 +69,7 @@ public class MRUCache<K, V> {
         } else {
             newEntry = new Entry<K, V>();
         }
+        newEntry.setKey(key);
+
     }
 }
