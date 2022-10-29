@@ -79,6 +79,8 @@ public class MRUCache<K, V> {
         if(data.isEmpty()) {
             head = entry;
             tail = entry;
+            return;
         }
+
     }
 }
