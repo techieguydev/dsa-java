@@ -87,7 +87,7 @@ public class MRUCache<K, V> {
     static final class Entry<I, J> {
         private Entry<I, J> preEntry;
         private Entry<I, J> nextEntry;
-
+        private I key;
 
     }
 }
