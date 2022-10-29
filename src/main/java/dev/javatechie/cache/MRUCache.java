@@ -92,6 +92,8 @@ public class MRUCache<K, V> {
 
         public Entry() {}
 
+        public Entry() {
 
+        }
     }
 }
