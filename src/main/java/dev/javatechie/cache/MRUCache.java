@@ -83,4 +83,8 @@ public class MRUCache<K, V> {
         }
 
     }
+
+    static final class Entry<I, J> {
+
+    }
 }
