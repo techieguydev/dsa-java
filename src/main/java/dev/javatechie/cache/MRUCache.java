@@ -88,6 +88,6 @@ public class MRUCache<K, V> {
         private Entry<I, J> preEntry;
         private Entry<I, J> nextEntry;
         private I key;
-
+        private J value;
     }
 }
