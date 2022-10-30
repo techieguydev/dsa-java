@@ -96,6 +96,7 @@ public class MRUCache<K, V> {
             this.preEntry = preEntry;
             this.nextEntry = nextEntry;
             this.key = key;
+            this.value
         }
     }
 }
