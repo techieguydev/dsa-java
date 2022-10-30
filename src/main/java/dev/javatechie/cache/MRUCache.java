@@ -94,6 +94,7 @@ public class MRUCache<K, V> {
 
         public Entry(final Entry<I, J> preEntry, final Entry<I, J> nextEntry, final I key, final J value) {
             this.preEntry = preEntry;
+            this.nextEntry
         }
     }
 }
