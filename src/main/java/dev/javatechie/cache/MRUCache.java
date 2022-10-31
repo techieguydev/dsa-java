@@ -111,7 +111,9 @@ public class MRUCache<K, V> {
             return nextEntry;
         }
 
-        public void setNextEntry(final Entry<I, J> nextEntry) {}
+        public void setNextEntry(final Entry<I, J> nextEntry) {
+
+        }
 
     }
 }
