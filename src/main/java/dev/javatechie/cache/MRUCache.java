@@ -114,6 +114,5 @@ public class MRUCache<K, V> {
         public void setNextEntry(final Entry<I, J> nextEntry) {
             this.nextEntry = nextEntry;
         }
-
     }
 }
