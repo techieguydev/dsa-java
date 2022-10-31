@@ -100,7 +100,7 @@ public class MRUCache<K, V> {
         }
 
         public Entry<I, J> getPreEntry() {
-
+            return preEntry;
         }
     }
 }
