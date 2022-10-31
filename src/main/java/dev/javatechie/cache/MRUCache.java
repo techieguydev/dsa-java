@@ -104,7 +104,7 @@ public class MRUCache<K, V> {
         }
 
         public void setPreEntry(final Entry<I, J> preEntry) {
-
+            this.preEntry = preEntry;
         }
     }
 }
