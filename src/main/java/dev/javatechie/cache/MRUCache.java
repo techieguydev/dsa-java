@@ -98,5 +98,9 @@ public class MRUCache<K, V> {
             this.key = key;
             this.value = value;
         }
+
+        public Entry<I, J> getPreEntry() {
+
+        }
     }
 }
