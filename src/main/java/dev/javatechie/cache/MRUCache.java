@@ -124,7 +124,7 @@ public class MRUCache<K, V> {
         }
 
         public J getValue() {
-
+            return value;
         }
     }
 }
