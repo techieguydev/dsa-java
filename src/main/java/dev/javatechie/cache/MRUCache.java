@@ -75,7 +75,7 @@ public class MRUCache<K, V> {
         data.put(key, newEntry);
     }
 
-    private void moveEntryToLast(Entry<K,V> existingEntry) {
+    private void moveEntryToLast(final Entry<K,V> existingEntry) {
     }
 
     private void addNewEntry(final Entry<K, V> entry) {
