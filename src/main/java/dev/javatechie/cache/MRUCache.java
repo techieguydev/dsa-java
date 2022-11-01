@@ -120,7 +120,8 @@ public class MRUCache<K, V> {
         }
 
         public void setKey(final I key) {
-            this.key
+            this.key = key;
         }
+
     }
 }
