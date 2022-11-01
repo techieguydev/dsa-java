@@ -118,5 +118,7 @@ public class MRUCache<K, V> {
         public I getKey() {
             return key;
         }
+
+        public void setKey()
     }
 }
