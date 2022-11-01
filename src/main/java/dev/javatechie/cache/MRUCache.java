@@ -127,6 +127,8 @@ public class MRUCache<K, V> {
             return value;
         }
 
-        public void setValue()
+        public void setValue(final J value) {
+
+        }
     }
 }
