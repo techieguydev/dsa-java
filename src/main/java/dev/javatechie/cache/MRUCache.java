@@ -123,5 +123,8 @@ public class MRUCache<K, V> {
             this.key = key;
         }
 
+        public J getValue() {
+
+        }
     }
 }
