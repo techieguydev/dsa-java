@@ -115,6 +115,8 @@ public class MRUCache<K, V> {
             this.nextEntry = nextEntry;
         }
 
-        public I getKey()
+        public I getKey() {
+            return key;
+        }
     }
 }
