@@ -77,7 +77,7 @@ public class MRUCache<K, V> {
 
     private void moveEntryToLast(final Entry<K,V> entry) {
         if(tail == entry) {
-
+            return;
         }
     }
 
