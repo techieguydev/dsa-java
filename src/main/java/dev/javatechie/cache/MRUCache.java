@@ -82,7 +82,7 @@ public class MRUCache<K, V> {
         }
 
         final Entry<K, V> preEntry = entry.getPreEntry();
-        final Entry<K, V>
+        final Entry<K, V> nextEntry = en
     }
 
     private void addNewEntry(final Entry<K, V> entry) {
