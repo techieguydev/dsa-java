@@ -2,6 +2,7 @@ package dev.javatechie.cache;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.jar.JarEntry;
 
 public class MRUCache<K, V> {
 
@@ -79,6 +80,8 @@ public class MRUCache<K, V> {
         if(tail == entry) {
             return;
         }
+
+        final Entry<I, J> preEntry = entry.getPreEntry();
     }
 
     private void addNewEntry(final Entry<K, V> entry) {
