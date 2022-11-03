@@ -92,6 +92,7 @@ public class MRUCache<K, V> {
         if(head == entry) {
             head = nextEntry;
         }
+
     }
 
     private void addNewEntry(final Entry<K, V> entry) {
