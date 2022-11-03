@@ -89,7 +89,7 @@ public class MRUCache<K, V> {
         if(nextEntry != null) {
             nextEntry.setPreEntry(nextEntry);
         }
-        if(head == )
+        if(head == entry)
     }
 
     private void addNewEntry(final Entry<K, V> entry) {
