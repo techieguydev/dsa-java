@@ -87,7 +87,7 @@ public class MRUCache<K, V> {
             preEntry.setNextEntry(nextEntry);
         }
         if(nextEntry != null) {
-            d
+            nextEntry.setPreEntry(nextEntry);
         }
     }
 
