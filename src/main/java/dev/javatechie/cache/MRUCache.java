@@ -93,7 +93,7 @@ public class MRUCache<K, V> {
             head = nextEntry;
         }
 
-
+        tail.
     }
 
     private void addNewEntry(final Entry<K, V> entry) {
