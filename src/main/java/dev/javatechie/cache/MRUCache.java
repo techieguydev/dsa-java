@@ -107,8 +107,7 @@ public class MRUCache<K, V> {
             tail = entry;
             return;
         }
-
-        tail.setNextEntry();
+        tail.setNextEntry(entry);
 
     }
 
