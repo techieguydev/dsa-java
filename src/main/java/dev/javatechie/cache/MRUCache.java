@@ -108,6 +108,7 @@ public class MRUCache<K, V> {
             return;
         }
         tail.setNextEntry(entry);
+        entry.setPreEntry();
     }
 
     static final class Entry<I, J> {
