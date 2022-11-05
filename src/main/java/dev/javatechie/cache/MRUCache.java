@@ -76,7 +76,7 @@ public class MRUCache<K, V> {
         data.put(key, newEntry);
     }
 
-    private void addNewEntry()
+
 
     private void moveEntryToLast(final Entry<K,V> entry) {
         if(tail == entry) {
@@ -107,6 +107,8 @@ public class MRUCache<K, V> {
             tail = entry;
             return;
         }
+
+        tail.setNextEntry();
 
     }
 
