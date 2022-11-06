@@ -62,7 +62,7 @@ public class MRUCache<K, V> {
     }
 
     /**
-     * Put the value .
+     * Put the value in MRU Cache.
      *
      * @param key   the key
      * @param value the value
