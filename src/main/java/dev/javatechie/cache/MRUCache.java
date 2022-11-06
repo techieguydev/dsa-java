@@ -124,6 +124,12 @@ public class MRUCache<K, V> {
         tail = entry;
     }
 
+    /**
+     * The type Entry.
+     *
+     * @param <I> the type parameter
+     * @param <J> the type parameter
+     */
     static final class Entry<I, J> {
         private Entry<I, J> preEntry;
         private Entry<I, J> nextEntry;
