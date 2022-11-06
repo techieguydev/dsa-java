@@ -47,7 +47,7 @@ public class MRUCache<K, V> {
     }
 
     /**
-     * Get v.
+     * Get the value.
      *
      * @param key the key
      * @return the v
