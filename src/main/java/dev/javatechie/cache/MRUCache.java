@@ -61,6 +61,12 @@ public class MRUCache<K, V> {
         return entry.getValue();
     }
 
+    /**
+     * Put.
+     *
+     * @param key   the key
+     * @param value the value
+     */
     public void put(final K key, final V value) {
         if(data.containsKey(key)) {
             final Entry<K, V> existringEntry = data.get(key);
