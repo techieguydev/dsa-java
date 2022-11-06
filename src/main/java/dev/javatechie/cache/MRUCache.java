@@ -2,7 +2,6 @@ package dev.javatechie.cache;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.jar.JarEntry;
 
 public class MRUCache<K, V> {
 
