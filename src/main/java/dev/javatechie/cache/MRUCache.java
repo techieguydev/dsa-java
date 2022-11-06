@@ -62,7 +62,7 @@ public class MRUCache<K, V> {
     }
 
     /**
-     * Put.
+     * Put the value .
      *
      * @param key   the key
      * @param value the value
