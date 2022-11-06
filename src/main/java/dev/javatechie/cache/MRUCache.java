@@ -127,7 +127,7 @@ public class MRUCache<K, V> {
     /**
      * The type Entry.
      *
-     * @param <I> the type parameter
+     * @param <I> the key type parameter
      * @param <J> the type parameter
      */
     static final class Entry<I, J> {
