@@ -146,7 +146,7 @@ public class MRUCache<K, V> {
          *
          * @param preEntry  the pre entry object
          * @param nextEntry the next entry object
-         * @param key       the key
+         * @param key       the key object
          * @param value     the value
          */
         public Entry(final Entry<I, J> preEntry, final Entry<I, J> nextEntry, final I key, final J value) {
