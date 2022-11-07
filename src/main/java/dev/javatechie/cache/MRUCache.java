@@ -165,6 +165,11 @@ public class MRUCache<K, V> {
             return preEntry;
         }
 
+        /**
+         * Sets pre entry.
+         *
+         * @param preEntry the pre entry
+         */
         public void setPreEntry(final Entry<I, J> preEntry) {
             this.preEntry = preEntry;
         }
