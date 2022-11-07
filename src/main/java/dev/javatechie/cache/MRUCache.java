@@ -156,6 +156,11 @@ public class MRUCache<K, V> {
             this.value = value;
         }
 
+        /**
+         * Gets pre entry.
+         *
+         * @return the pre entry
+         */
         public Entry<I, J> getPreEntry() {
             return preEntry;
         }
