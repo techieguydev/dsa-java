@@ -147,7 +147,7 @@ public class MRUCache<K, V> {
          * @param preEntry  the pre entry object
          * @param nextEntry the next entry object
          * @param key       the key object
-         * @param value     the value
+         * @param value     the value object
          */
         public Entry(final Entry<I, J> preEntry, final Entry<I, J> nextEntry, final I key, final J value) {
             this.preEntry = preEntry;
