@@ -174,6 +174,11 @@ public class MRUCache<K, V> {
             this.preEntry = preEntry;
         }
 
+        /**
+         * Gets next entry.
+         *
+         * @return the next entry
+         */
         public Entry<I, J> getNextEntry() {
             return nextEntry;
         }
