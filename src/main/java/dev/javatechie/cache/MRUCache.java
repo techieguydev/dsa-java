@@ -144,7 +144,7 @@ public class MRUCache<K, V> {
         /**
          * Instantiates a new Entry.
          *
-         * @param preEntry  the pre entry
+         * @param preEntry  the pre entry object
          * @param nextEntry the next entry
          * @param key       the key
          * @param value     the value
