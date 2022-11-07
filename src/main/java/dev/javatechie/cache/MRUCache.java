@@ -183,6 +183,11 @@ public class MRUCache<K, V> {
             return nextEntry;
         }
 
+        /**
+         * Sets next entry.
+         *
+         * @param nextEntry the next entry
+         */
         public void setNextEntry(final Entry<I, J> nextEntry) {
             this.nextEntry = nextEntry;
         }
