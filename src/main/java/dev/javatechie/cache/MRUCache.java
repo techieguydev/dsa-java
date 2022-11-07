@@ -136,6 +136,9 @@ public class MRUCache<K, V> {
         private I key;
         private J value;
 
+        /**
+         * Instantiates a new Entry.
+         */
         public Entry() {}
 
         public Entry(final Entry<I, J> preEntry, final Entry<I, J> nextEntry, final I key, final J value) {
