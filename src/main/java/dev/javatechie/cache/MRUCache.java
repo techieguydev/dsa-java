@@ -202,7 +202,7 @@ public class MRUCache<K, V> {
         }
 
         /**
-         * Sets key.
+         * Sets key as generic object.
          *
          * @param key the key
          */
