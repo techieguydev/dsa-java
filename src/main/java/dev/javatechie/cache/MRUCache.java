@@ -193,7 +193,7 @@ public class MRUCache<K, V> {
         }
 
         /**
-         * Gets key as gene.
+         * Gets key as generic object.
          *
          * @return the key
          */
