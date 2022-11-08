@@ -166,7 +166,7 @@ public class MRUCache<K, V> {
         }
 
         /**
-         * Sets pre entry.
+         * Sets pre entry object.
          *
          * @param preEntry the pre entry
          */
