@@ -175,7 +175,7 @@ public class MRUCache<K, V> {
         }
 
         /**
-         * Gets next entry.
+         * Gets next entry object.
          *
          * @return the next entry
          */
