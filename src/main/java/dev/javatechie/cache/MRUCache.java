@@ -192,6 +192,11 @@ public class MRUCache<K, V> {
             this.nextEntry = nextEntry;
         }
 
+        /**
+         * Gets key.
+         *
+         * @return the key
+         */
         public I getKey() {
             return key;
         }
