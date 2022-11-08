@@ -201,6 +201,11 @@ public class MRUCache<K, V> {
             return key;
         }
 
+        /**
+         * Sets key.
+         *
+         * @param key the key
+         */
         public void setKey(final I key) {
             this.key = key;
         }
