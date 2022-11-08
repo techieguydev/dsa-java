@@ -157,7 +157,7 @@ public class MRUCache<K, V> {
         }
 
         /**
-         * Gets pre entry.
+         * Gets pre entry object.
          *
          * @return the pre entry
          */
