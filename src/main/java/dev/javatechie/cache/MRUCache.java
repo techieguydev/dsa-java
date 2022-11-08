@@ -193,7 +193,7 @@ public class MRUCache<K, V> {
         }
 
         /**
-         * Gets key.
+         * Gets key as gene.
          *
          * @return the key
          */
