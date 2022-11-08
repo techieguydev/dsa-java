@@ -219,6 +219,11 @@ public class MRUCache<K, V> {
             return value;
         }
 
+        /**
+         * Sets value.
+         *
+         * @param value the value
+         */
         public void setValue(final J value) {
             this.value = value;
         }
