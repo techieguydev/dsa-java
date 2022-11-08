@@ -184,7 +184,7 @@ public class MRUCache<K, V> {
         }
 
         /**
-         * Sets next entry.
+         * Sets next entry object.
          *
          * @param nextEntry the next entry
          */
