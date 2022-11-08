@@ -210,6 +210,11 @@ public class MRUCache<K, V> {
             this.key = key;
         }
 
+        /**
+         * Gets value.
+         *
+         * @return the value
+         */
         public J getValue() {
             return value;
         }
