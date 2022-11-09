@@ -213,7 +213,7 @@ public class MRUCache<K, V> {
         /**
          * Gets value as object.
          *
-         * @return the value as generic
+         * @return the value as generic value
          */
         public J getValue() {
             return value;
