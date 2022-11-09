@@ -222,7 +222,7 @@ public class MRUCache<K, V> {
         /**
          * Sets value as object.
          *
-         * @param value the value
+         * @param value the value as
          */
         public void setValue(final J value) {
             this.value = value;
