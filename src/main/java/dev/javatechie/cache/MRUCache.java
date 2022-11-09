@@ -211,7 +211,7 @@ public class MRUCache<K, V> {
         }
 
         /**
-         * Gets value.
+         * Gets value as object.
          *
          * @return the value
          */
