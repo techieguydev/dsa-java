@@ -220,7 +220,7 @@ public class MRUCache<K, V> {
         }
 
         /**
-         * Sets value as obbject.
+         * Sets value as object.
          *
          * @param value the value
          */
