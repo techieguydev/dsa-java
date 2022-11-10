@@ -3,6 +3,12 @@ package dev.javatechie.cache;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * The type Mru cache.
+ *
+ * @param <K> the type parameter
+ * @param <V> the type parameter
+ */
 public class MRUCache<K, V> {
 
     private final Map<K, Entry<K, V>> data = new HashMap<>();
@@ -11,6 +17,9 @@ public class MRUCache<K, V> {
     private int cap;
     private static final int DEFAULT_CAP = 100;
 
+    /**
+     * Instantiates a new Mru cache.
+     */
     public MRUCache() {
         setCapacity(DEFAULT_CAP);
     }
@@ -42,6 +51,11 @@ public class MRUCache<K, V> {
         return evicted;
     }
 
+    /**
+     * Instantiates a new Mru cache.
+     *
+     * @param cap the cap
+     */
     public MRUCache(int cap) {
         setCapacity(cap);
     }
