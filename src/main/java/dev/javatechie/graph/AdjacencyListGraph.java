@@ -1,4 +1,4 @@
 package dev.javatechie.graph;
 
-public class AdjacencyListGraph {
+public class AdjacencyListGraph<E extends Comparable<>> {
 }
