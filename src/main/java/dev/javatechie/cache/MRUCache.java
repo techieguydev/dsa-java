@@ -26,7 +26,7 @@ public class MRUCache<K, V> {
 
     private void setCapacity(int newCapacity) {
         checkCapacity(newCapacity);
-        for(int i = data.size(); i > newCapacity; i--) {
+        for (int i = data.size(); i > newCapacity; i--) {
             Entry<K, V> evicted = evict();
             data.remove(evicted.getKey());
         }
@@ -34,13 +34,13 @@ public class MRUCache<K, V> {
     }
 
     private void checkCapacity(int capacity) {
-        if(capacity <= 0) {
+        if (capacity <= 0) {
             throw new RuntimeException("Capacity must be greater than zero!");
         }
     }
 
     private Entry<K, V> evict() {
-        if(head == null) {
+        if (head == null) {
             throw new RuntimeException("Cache cannot be empty");
         }
         final Entry<K, V> evicted = this.tail;
@@ -67,7 +67,7 @@ public class MRUCache<K, V> {
      * @return the v
      */
     public V get(final K key) {
-        if(!data.containsKey(key)) {
+        if (!data.containsKey(key)) {
             return null;
         }
         final Entry<K, V> entry = data.get(key);
@@ -82,7 +82,7 @@ public class MRUCache<K, V> {
      * @param value the value
      */
     public void put(final K key, final V value) {
-        if(data.containsKey(key)) {
+        if (data.containsKey(key)) {
             final Entry<K, V> existringEntry = data.get(key);
             existringEntry.setValue(value);
             moveEntryToLast(existringEntry);
@@ -102,32 +102,31 @@ public class MRUCache<K, V> {
     }
 
 
-
-    private void moveEntryToLast(final Entry<K,V> entry) {
-        if(tail == entry) {
+    private void moveEntryToLast(final Entry<K, V> entry) {
+        if (tail == entry) {
             return;
         }
 
         final Entry<K, V> preEntry = entry.getPreEntry();
         final Entry<K, V> nextEntry = entry.getNextEntry();
-        if(preEntry != null) {
+        if (preEntry != null) {
             preEntry.setNextEntry(nextEntry);
         }
-        if(nextEntry != null) {
+        if (nextEntry != null) {
             nextEntry.setPreEntry(nextEntry);
         }
-        if(head == entry) {
+        if (head == entry) {
             head = nextEntry;
         }
 
         tail.setNextEntry(entry);
         entry.setPreEntry(tail);
         entry.setNextEntry(null);
-        tail =entry;
+        tail = entry;
     }
 
     private void addNewEntry(final Entry<K, V> entry) {
-        if(data.isEmpty()) {
+        if (data.isEmpty()) {
             head = entry;
             tail = entry;
             return;
@@ -153,7 +152,8 @@ public class MRUCache<K, V> {
         /**
          * Instantiates a new Entry.
          */
-        public Entry() {}
+        public Entry() {
+        }
 
         /**
          * Instantiates a new Entry.
