@@ -1,10 +1,11 @@
 package dev.javatechie.graph;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class AdjacencyListGraph<E extends Comparable<E>> {
 
-    ArrayList<Vertex> vertices;
+    List<Vertex> vertices;
 
     public AdjacencyListGraph() {
         vertices = new ArrayList<>();
@@ -12,10 +13,11 @@ public class AdjacencyListGraph<E extends Comparable<E>> {
 
     private class Vertex {
         E data;
-        ArrayList<Vertex> adjacentVertices;
+        List<Vertex> adjacentVertices;
 
-        public Vertex(final E vertex) {
-
+        public Vertex(final E data) {
+            this.data = data;
+            adjacentVertices = new ArrayList<>();
         }
     }
 }
