@@ -19,5 +19,7 @@ public class AdjacencyListGraph<E extends Comparable<E>> {
             this.data = data;
             adjacentVertices = new ArrayList<>();
         }
+
+        public void
     }
 }
