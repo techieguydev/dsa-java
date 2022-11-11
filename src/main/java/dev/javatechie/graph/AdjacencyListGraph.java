@@ -7,6 +7,9 @@ public class AdjacencyListGraph<E extends Comparable<E>> {
 
     List<Vertex> vertices;
 
+    /**
+     * Instantiates a new Adjacency list graph.
+     */
     public AdjacencyListGraph() {
         vertices = new ArrayList<>();
     }
