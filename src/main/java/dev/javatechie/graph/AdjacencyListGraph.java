@@ -14,5 +14,8 @@ public class AdjacencyListGraph<E extends Comparable<E>> {
         E data;
         ArrayList<Vertex> adjacentVertices;
 
+        public Vertex(final E vertex) {
+
+        }
     }
 }
