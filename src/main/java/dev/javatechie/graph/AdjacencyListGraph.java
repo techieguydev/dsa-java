@@ -26,6 +26,7 @@ public class AdjacencyListGraph<E extends Comparable<E>> {
                     return false;
                 }
             }
+            return adjacentVertices.add(to);
         }
     }
 }
