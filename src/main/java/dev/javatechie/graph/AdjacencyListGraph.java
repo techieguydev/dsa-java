@@ -20,6 +20,8 @@ public class AdjacencyListGraph<E extends Comparable<E>> {
             adjacentVertices = new ArrayList<>();
         }
 
-        public void
+        public boolean addAdjacentVertex(final Vertex to) {
+
+        }
     }
 }
