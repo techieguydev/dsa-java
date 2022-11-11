@@ -22,7 +22,9 @@ public class AdjacencyListGraph<E extends Comparable<E>> {
 
         public boolean addAdjacentVertex(final Vertex to) {
             for(final Vertex vertex : adjacentVertices) {
+                if(vertex.data.compareTo(to.data) == 0) {
 
+                }
             }
         }
     }
