@@ -32,7 +32,7 @@ public class AdjacencyListGraph<E extends Comparable<E>> {
             return adjacentVertices.add(to);
         }
 
-        public void removeAdjacentVertex() {
+        public void removeAdjacentVertex(final E to) {
 
         }
     }
