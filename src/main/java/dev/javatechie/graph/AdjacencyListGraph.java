@@ -35,7 +35,7 @@ public class AdjacencyListGraph<E extends Comparable<E>> {
         public void removeAdjacentVertex(final E to) {
             for(int i = 0; i < adjacentVertices.size(); i++) {
                 if(adjacentVertices.get(i).data.compareTo(to) == 0) {
-
+                    adjacentVertices.remove(i);
                 }
             }
         }
