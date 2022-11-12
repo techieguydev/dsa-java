@@ -32,12 +32,14 @@ public class AdjacencyListGraph<E extends Comparable<E>> {
             return adjacentVertices.add(to);
         }
 
-        public void removeAdjacentVertex(final E to) {
+        public boolean removeAdjacentVertex(final E to) {
             for(int i = 0; i < adjacentVertices.size(); i++) {
                 if(adjacentVertices.get(i).data.compareTo(to) == 0) {
                     adjacentVertices.remove(i);
+                    return true;
                 }
             }
+            return false;
         }
     }
 }
