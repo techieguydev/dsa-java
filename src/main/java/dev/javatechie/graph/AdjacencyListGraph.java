@@ -51,6 +51,8 @@ public class AdjacencyListGraph<E extends Comparable<E>> {
                 break;
             }
         }
-        if(fromV)
+        if(fromV == null) {
+
+        }
     }
 }
