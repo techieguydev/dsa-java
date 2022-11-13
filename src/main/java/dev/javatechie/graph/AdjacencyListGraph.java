@@ -43,7 +43,7 @@ public class AdjacencyListGraph<E extends Comparable<E>> {
         }
     }
 
-    public boolean removeEdge() {
+    public boolean removeEdge(final E from, final E to) {
 
     }
 }
