@@ -47,7 +47,8 @@ public class AdjacencyListGraph<E extends Comparable<E>> {
         Vertex fromV = null;
         for(Vertex v : vertices) {
             if(from.compareTo(v.data) == 0) {
-
+                fromV = v;
+                break;
             }
         }
     }
