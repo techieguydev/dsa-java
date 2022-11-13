@@ -42,4 +42,6 @@ public class AdjacencyListGraph<E extends Comparable<E>> {
             return false;
         }
     }
+
+    public boolean
 }
