@@ -54,5 +54,6 @@ public class AdjacencyListGraph<E extends Comparable<E>> {
         if(fromV == null) {
             return false;
         }
+        return fromV.removeAdjacentVertex(to);
     }
 }
