@@ -63,6 +63,8 @@ public class AdjacencyListGraph<E extends Comparable<E>> {
         for(Vertex v : vertices) {
             if(from.compareTo(v.data) == 0) {
                 fromV = v;
+            } else if (to.compareTo(v.data) == 0) {
+                toV = v;
             }
         }
     }
