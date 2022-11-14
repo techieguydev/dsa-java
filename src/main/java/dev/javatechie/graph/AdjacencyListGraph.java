@@ -66,7 +66,9 @@ public class AdjacencyListGraph<E extends Comparable<E>> {
             } else if (to.compareTo(v.data) == 0) {
                 toV = v;
             }
-            if(fromV != null)
+            if(fromV != null && toV != null) {
+                bre
+            }
         }
     }
 }
