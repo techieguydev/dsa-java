@@ -58,6 +58,7 @@ public class AdjacencyListGraph<E extends Comparable<E>> {
     }
 
     public boolean addEdge(final E from, final E to) {
+        Vertex fromV = null;
 
     }
 }
