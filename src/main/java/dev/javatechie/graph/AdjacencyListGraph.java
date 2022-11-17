@@ -78,6 +78,6 @@ public class AdjacencyListGraph<E extends Comparable<E>> {
             toV = new Vertex(to);
             vertices.add(toV);
         }
-        return
+        return fromV.addAdjacentVertex(to)
     }
 }
