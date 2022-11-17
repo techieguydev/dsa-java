@@ -76,7 +76,7 @@ public class AdjacencyListGraph<E extends Comparable<E>> {
         }
         if(toV == null) {
             toV = new Vertex(to);
-
+            vertices.add(toV);
         }
     }
 }
