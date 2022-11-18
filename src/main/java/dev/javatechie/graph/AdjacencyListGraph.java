@@ -88,7 +88,7 @@ public class AdjacencyListGraph<E extends Comparable<E>> {
             sb.append("Vertex: ");
             sb.append(v.data);
             sb.append("\n");
-            sb.append("Adjacent vertices: ")
+            sb.append("Adjacent vertices: ");
         }
     }
 }
