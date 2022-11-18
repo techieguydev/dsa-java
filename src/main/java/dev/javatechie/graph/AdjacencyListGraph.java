@@ -86,6 +86,7 @@ public class AdjacencyListGraph<E extends Comparable<E>> {
         final StringBuilder sb = new StringBuilder();
         for(Vertex v : vertices) {
             sb.append("Vertex: ");
+            sb.append(v.data);
         }
     }
 }
