@@ -84,5 +84,8 @@ public class AdjacencyListGraph<E extends Comparable<E>> {
     @Override
     public String toString() {
         final StringBuilder sb = new StringBuilder();
+        for(Vertex v : vertices) {
+
+        }
     }
 }
