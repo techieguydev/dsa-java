@@ -90,7 +90,7 @@ public class AdjacencyListGraph<E extends Comparable<E>> {
             sb.append("\n");
             sb.append("Adjacent vertices: ");
             for(Vertex v2: v.adjacentVertices) {
-
+                sb.append()
             }
         }
 
