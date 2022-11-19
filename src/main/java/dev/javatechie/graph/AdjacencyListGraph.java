@@ -93,5 +93,7 @@ public class AdjacencyListGraph<E extends Comparable<E>> {
 
             }
         }
+
+        return null;
     }
 }
