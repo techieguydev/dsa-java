@@ -96,6 +96,6 @@ public class AdjacencyListGraph<E extends Comparable<E>> {
             sb.append("\n");
         }
 
-        return null;
+        return ;
     }
 }
