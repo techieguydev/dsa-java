@@ -102,6 +102,6 @@ public class AdjacencyListGraph<E extends Comparable<E>> {
 
 class Graphs {
     public static void main(String[] args) {
-
+        final AdjacencyListGraph<Integer> graph = new AdjacencyListGraph<>();
     }
 }
