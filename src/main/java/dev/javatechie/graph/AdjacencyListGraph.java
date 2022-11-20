@@ -99,3 +99,7 @@ public class AdjacencyListGraph<E extends Comparable<E>> {
         return sb.toString();
     }
 }
+
+class Graphs {
+
+}
