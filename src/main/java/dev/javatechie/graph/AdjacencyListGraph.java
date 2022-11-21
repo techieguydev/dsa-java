@@ -105,6 +105,6 @@ class Graphs {
         final AdjacencyListGraph<Integer> graph = new AdjacencyListGraph<>();
         assert graph.addEdge(1, 2);
         assert graph.addEdge(1, 5);
-        assert graph.addEdge(2, );
+        assert graph.addEdge(2, 5);
     }
 }
