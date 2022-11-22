@@ -107,6 +107,6 @@ class Graphs {
         assert graph.addEdge(1, 5);
         assert graph.addEdge(2, 5);
         assert graph.addEdge(1, 2);
-        assert graph.addEdge()
+        assert graph.addEdge();
     }
 }
