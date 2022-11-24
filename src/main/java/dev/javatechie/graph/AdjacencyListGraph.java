@@ -18,6 +18,11 @@ public class AdjacencyListGraph<E extends Comparable<E>> {
         E data;
         List<Vertex> adjacentVertices;
 
+        /**
+         * Instantiates a new Vertex.
+         *
+         * @param data the data
+         */
         public Vertex(final E data) {
             this.data = data;
             adjacentVertices = new ArrayList<>();
