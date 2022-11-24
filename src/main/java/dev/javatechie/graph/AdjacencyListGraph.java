@@ -28,6 +28,12 @@ public class AdjacencyListGraph<E extends Comparable<E>> {
             adjacentVertices = new ArrayList<>();
         }
 
+        /**
+         * Add adjacent vertex boolean.
+         *
+         * @param to the to
+         * @return the boolean
+         */
         public boolean addAdjacentVertex(final Vertex to) {
             for(final Vertex vertex : adjacentVertices) {
                 if(vertex.data.compareTo(to.data) == 0) {
