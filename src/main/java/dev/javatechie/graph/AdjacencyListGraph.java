@@ -43,6 +43,12 @@ public class AdjacencyListGraph<E extends Comparable<E>> {
             return adjacentVertices.add(to);
         }
 
+        /**
+         * Remove adjacent vertex boolean.
+         *
+         * @param to the to
+         * @return the boolean
+         */
         public boolean removeAdjacentVertex(final E to) {
             for(int i = 0; i < adjacentVertices.size(); i++) {
                 if(adjacentVertices.get(i).data.compareTo(to) == 0) {
