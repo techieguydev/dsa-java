@@ -60,6 +60,13 @@ public class AdjacencyListGraph<E extends Comparable<E>> {
         }
     }
 
+    /**
+     * Remove edge boolean.
+     *
+     * @param from the from
+     * @param to   the to
+     * @return the boolean
+     */
     public boolean removeEdge(final E from, final E to) {
         Vertex fromV = null;
         for(Vertex v : vertices) {
