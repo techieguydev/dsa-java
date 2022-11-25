@@ -63,7 +63,7 @@ public class AdjacencyListGraph<E extends Comparable<E>> {
     /**
      * Remove edge boolean.
      *
-     * @param from the from
+     * @param from the from object
      * @param to   the to
      * @return the boolean
      */
