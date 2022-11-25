@@ -131,6 +131,9 @@ public class AdjacencyListGraph<E extends Comparable<E>> {
     }
 }
 
+/**
+ * The type Graphs.
+ */
 class Graphs {
     public static void main(String[] args) {
         final AdjacencyListGraph<Integer> graph = new AdjacencyListGraph<>();
