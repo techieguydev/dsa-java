@@ -132,7 +132,7 @@ public class AdjacencyListGraph<E extends Comparable<E>> {
 }
 
 /**
- * This class is the entry class .
+ * This class is the entry class of Adjacent.
  */
 class Graphs {
     /**
