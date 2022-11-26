@@ -82,7 +82,7 @@ public class AdjacencyListGraph<E extends Comparable<E>> {
     }
 
     /**
-     * Add object to the edge and boolean.
+     * Add object to the edge and return boolean.
      *
      * @param from the from object
      * @param to   the to object
