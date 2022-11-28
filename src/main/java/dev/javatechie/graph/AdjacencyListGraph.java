@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * This class creates Adjacency list graph which accepts a generic class .
+ * This class creates Adjacency list graph which accepts a generic class object.
  *
  * @param <E> the type parameter
  */
