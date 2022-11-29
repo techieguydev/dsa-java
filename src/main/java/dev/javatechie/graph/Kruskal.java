@@ -8,7 +8,7 @@ public class Kruskal {
         private int weight;
 
         public Edge(int from, int to, int weight) {
-            this.from
+            this.from = from;
         }
     }
 }
