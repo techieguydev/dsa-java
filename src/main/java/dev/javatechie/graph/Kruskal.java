@@ -6,5 +6,9 @@ public class Kruskal {
         private int from;
         private int to;
         private int weight;
+
+        public Edge() {
+
+        }
     }
 }
