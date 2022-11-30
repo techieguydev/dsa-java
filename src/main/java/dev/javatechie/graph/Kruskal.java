@@ -17,6 +17,6 @@ public class Kruskal {
     }
 
     private static void addEdge(final HashSet<Edge>[] graph, int from, int to, int weight) {
-        graph[from].add(new Edge(from, to));
+        graph[from].add(new Edge(from, to, weight));
     }
 }
