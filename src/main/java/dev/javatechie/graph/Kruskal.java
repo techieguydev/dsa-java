@@ -13,4 +13,6 @@ public class Kruskal {
             this.weight = weight;
         }
     }
+
+    private static
 }
