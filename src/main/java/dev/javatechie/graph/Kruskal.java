@@ -14,5 +14,7 @@ public class Kruskal {
         }
     }
 
-    private static
+    private static void addEdge() {
+
+    }
 }
