@@ -1,5 +1,7 @@
 package dev.javatechie.graph;
 
+import java.util.HashSet;
+
 public class Kruskal {
 
     private static class Edge {
@@ -14,7 +16,7 @@ public class Kruskal {
         }
     }
 
-    private static void addEdge() {
+    private static void addEdge(final HashSet<Edge>[] graph) {
 
     }
 }
