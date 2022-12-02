@@ -1,6 +1,7 @@
 package dev.javatechie.graph;
 
 import java.util.HashSet;
+import java.util.Set;
 
 public class Kruskal {
 
@@ -21,6 +22,6 @@ public class Kruskal {
     }
 
     public static void main(String[] args) {
-        final HashSet<Edge>[]
+        final Set<Edge>[] graph = new HashSet[7];
     }
 }
