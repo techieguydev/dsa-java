@@ -22,10 +22,10 @@ public class Kruskal {
     }
 
     public static void main(String[] args) {
-        final Set<Edge>[] graph = new HashSet[7];
+        final HashSet<Edge>[] graph = new HashSet[7];
         for(int i = 0; i < graph.length; i++) {
             graph[i] = new HashSet<>();
         }
-        addEdge(graph, 0, 1, );
+        addEdge(graph, 0, 1, 2);
     }
 }
