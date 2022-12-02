@@ -24,7 +24,7 @@ public class Kruskal {
     public static void main(String[] args) {
         final Set<Edge>[] graph = new HashSet[7];
         for(int i = 0; i < graph.length; i++) {
-
+            graph[i] = new HashSet<>();
         }
     }
 }
