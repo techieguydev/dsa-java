@@ -20,7 +20,7 @@ public class Kruskal {
         graph[from].add(new Edge(from, to, weight));
     }
 
-    public static void main() {
+    public static void main(String[] args) {
 
     }
 }
