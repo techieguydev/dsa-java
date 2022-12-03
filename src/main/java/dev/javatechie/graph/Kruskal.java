@@ -27,6 +27,6 @@ public class Kruskal {
             graph[i] = new HashSet<>();
         }
         addEdge(graph, 0, 1, 2);
-
+        addEdge(graph, 0, 2, 3);
     }
 }
