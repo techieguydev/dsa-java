@@ -32,6 +32,6 @@ public class Kruskal {
         addEdge(graph, 1, 2, 4);
         addEdge(graph, 2, 3, 5);
         addEdge(graph, 1, 4, 3);
-        addEdge(graph, 2, 4, );
+        addEdge(graph, 2, 4, 1);
     }
 }
