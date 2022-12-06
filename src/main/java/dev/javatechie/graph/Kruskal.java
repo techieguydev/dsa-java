@@ -37,6 +37,6 @@ public class Kruskal {
         addEdge(graph, 4, 5, 8);
         addEdge(graph, 5, 6, 9);
 
-        System.out.println();
+        System.out.println("");
     }
 }
