@@ -39,7 +39,7 @@ public class Kruskal {
 
         System.out.println("Initial Graph: ");
         for(int i = 0; i < graph.length; i++) {
-
+            for(Edge edge : )
         }
     }
 }
