@@ -38,5 +38,6 @@ public class Kruskal {
         addEdge(graph, 5, 6, 9);
 
         System.out.println("Initial Graph: ");
+        for(int i = 0;)
     }
 }
