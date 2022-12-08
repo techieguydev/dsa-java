@@ -47,6 +47,6 @@ public class Kruskal {
         Kruskal kruskal = new Kruskal();
         HashSet<Edge>[] solGraph = kruskal.kruskal(graph);
 
-        System
+        System.out
     }
 }
