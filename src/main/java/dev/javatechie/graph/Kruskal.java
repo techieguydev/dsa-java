@@ -44,6 +44,6 @@ public class Kruskal {
             }
         }
 
-        Kruskal
+        Kruskal kruskal = new Kruskal();
     }
 }
