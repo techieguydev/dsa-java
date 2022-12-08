@@ -48,6 +48,6 @@ public class Kruskal {
         HashSet<Edge>[] solGraph = kruskal.kruskal(graph);
 
         System.out.println("Minimal Graph: ");
-        for (int i = 0; )
+        for (int i = 0; i < solGraph.length;)
     }
 }
