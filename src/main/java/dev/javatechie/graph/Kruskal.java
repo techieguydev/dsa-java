@@ -49,7 +49,7 @@ public class Kruskal {
 
         System.out.println("Minimal Graph: ");
         for (int i = 0; i < solGraph.length; i++) {
-
+            for (Edge)
         }
     }
 }
