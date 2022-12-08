@@ -45,5 +45,6 @@ public class Kruskal {
         }
 
         Kruskal kruskal = new Kruskal();
+        HashSet<Edge>[] solGraph = kruskal
     }
 }
