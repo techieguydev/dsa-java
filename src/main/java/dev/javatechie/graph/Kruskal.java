@@ -43,5 +43,7 @@ public class Kruskal {
                 System.out.println(i + " <-- weight " + );
             }
         }
+
+        Kruskal
     }
 }
