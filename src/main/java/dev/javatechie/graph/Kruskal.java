@@ -54,4 +54,8 @@ public class Kruskal {
             }
         }
     }
+
+    public HashSet<Edge>[] kruskal(final HashSet<Edge>[] graph) {
+
+    }
 }
