@@ -56,6 +56,6 @@ public class Kruskal {
     }
 
     public HashSet<Edge>[] kruskal(final HashSet<Edge>[] graph) {
-
+        int nodes = graph.length;
     }
 }
