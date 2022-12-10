@@ -58,5 +58,7 @@ public class Kruskal {
     public HashSet<Edge>[] kruskal(final HashSet<Edge>[] graph) {
         int nodes = graph.length;
         int[] captain = new int[nodes];
+
+        HashSet<Integer>[] co
     }
 }
