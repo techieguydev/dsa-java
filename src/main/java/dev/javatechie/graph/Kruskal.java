@@ -59,6 +59,6 @@ public class Kruskal {
         int nodes = graph.length;
         int[] captain = new int[nodes];
 
-        HashSet<Integer>[] co
+        HashSet<Integer>[] connectedGroups = new
     }
 }
