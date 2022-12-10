@@ -60,6 +60,6 @@ public class Kruskal {
         int[] captain = new int[nodes];
 
         HashSet<Integer>[] connectedGroups = new HashSet[nodes];
-        HashSet<Edge> minGraph = new Has
+        HashSet<Edge>[] minGraph = new HashSet[nodes];
     }
 }
