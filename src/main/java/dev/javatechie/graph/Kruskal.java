@@ -67,6 +67,7 @@ public class Kruskal {
         for(int i = 0; i < nodes; i++) {
             minGraph[i] = new HashSet<>();
             connectedGroups[i] = new HashSet<>();
+            connectedGroups[i].add(i);
         }
     }
 }
