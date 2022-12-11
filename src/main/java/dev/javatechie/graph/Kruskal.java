@@ -62,6 +62,6 @@ public class Kruskal {
 
         HashSet<Integer>[] connectedGroups = new HashSet[nodes];
         HashSet<Edge>[] minGraph = new HashSet[nodes];
-        PriorityQueue<Edge> edges
+        PriorityQueue<Edge> edges = new PriorityQueue<>();
     }
 }
