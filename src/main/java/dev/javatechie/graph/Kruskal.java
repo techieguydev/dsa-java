@@ -1,6 +1,7 @@
 package dev.javatechie.graph;
 
 import java.util.HashSet;
+import java.util.PriorityQueue;
 import java.util.Set;
 
 public class Kruskal {
@@ -61,5 +62,6 @@ public class Kruskal {
 
         HashSet<Integer>[] connectedGroups = new HashSet[nodes];
         HashSet<Edge>[] minGraph = new HashSet[nodes];
+        PriorityQueue<Edge>
     }
 }
