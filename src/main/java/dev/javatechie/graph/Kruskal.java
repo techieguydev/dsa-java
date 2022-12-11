@@ -66,6 +66,7 @@ public class Kruskal {
         PriorityQueue<Edge> edges = new PriorityQueue<>(Comparator.comparingInt(edge -> edge.weight));
         for(int i = 0; i < nodes; i++) {
             minGraph[i] = new HashSet<>();
+            connectedGroups[i] = new HashSet<>();
         }
     }
 }
