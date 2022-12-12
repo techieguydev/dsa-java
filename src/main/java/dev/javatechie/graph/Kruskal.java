@@ -69,7 +69,7 @@ public class Kruskal {
             connectedGroups[i] = new HashSet<>();
             connectedGroups[i].add(i);
             captain[i] = i;
-            edges
+            edges.addAll()
         }
     }
 }
