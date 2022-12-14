@@ -72,6 +72,7 @@ public class Kruskal {
             edges.addAll(graph[i]);
         }
 
-        int
+        int connectedElements = 0;
+
     }
 }
