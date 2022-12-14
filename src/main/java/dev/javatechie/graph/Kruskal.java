@@ -74,7 +74,7 @@ public class Kruskal {
 
         int connectedElements = 0;
         while(connectedElements != nodes && !edges.isEmpty()) {
-
+            Edge edge = edges.poll();
         }
     }
 }
