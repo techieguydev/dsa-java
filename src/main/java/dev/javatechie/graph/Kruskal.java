@@ -73,6 +73,8 @@ public class Kruskal {
         }
 
         int connectedElements = 0;
-        while(connectedElements != nodes && !edges.isEmpty())
+        while(connectedElements != nodes && !edges.isEmpty()) {
+
+        }
     }
 }
