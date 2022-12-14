@@ -71,5 +71,7 @@ public class Kruskal {
             captain[i] = i;
             edges.addAll(graph[i]);
         }
+
+        int
     }
 }
