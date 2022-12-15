@@ -75,7 +75,7 @@ public class Kruskal {
         int connectedElements = 0;
         while(connectedElements != nodes && !edges.isEmpty()) {
             final Edge edge = edges.poll();
-            if(!connectedGroups[captain[edge.from]].contains(edge.to) && !connectedGroups) {
+            if(!connectedGroups[captain[edge.from]].contains(edge.to) && !connectedGroups[captain[edge.to]].contains(edge.from)) {
 
             }
         }
