@@ -77,7 +77,7 @@ public class Kruskal {
             final Edge edge = edges.poll();
             if(!connectedGroups[captain[edge.from]].contains(edge.to) && !connectedGroups[captain[edge.to]].contains(edge.from)) {
                 connectedGroups[captain[edge.from]].addAll(connectedGroups[captain[edge.to]]);
-                connectedGroups[captain[edge.from]].addAll()
+                connectedGroups[captain[edge.from]].forEach(i );
             }
         }
     }
