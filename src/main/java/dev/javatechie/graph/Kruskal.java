@@ -78,7 +78,7 @@ public class Kruskal {
             if(!connectedGroups[captain[edge.from]].contains(edge.to) && !connectedGroups[captain[edge.to]].contains(edge.from)) {
                 connectedGroups[captain[edge.from]].addAll(connectedGroups[captain[edge.to]]);
                 connectedGroups[captain[edge.from]].forEach(i -> captain[i] = captain[edge.from]);
-                addEdge(minGraph, edge.from, );
+                addEdge(minGraph, edge.from, edge.to);
             }
         }
     }
