@@ -81,5 +81,7 @@ public class Kruskal {
                 addEdge(minGraph, edge.from, edge.to, edge.weight);
             }
         }
+
+        return minGraph
     }
 }
