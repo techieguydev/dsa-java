@@ -82,6 +82,6 @@ public class Kruskal {
             }
         }
 
-        return minGraph
+        return minGraph;
     }
 }
