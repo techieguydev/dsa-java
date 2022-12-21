@@ -82,7 +82,6 @@ public class Kruskal {
                 connectedElements = connectedGroups[captain[edge.from]].size();
             }
         }
-
         return minGraph;
     }
 }
