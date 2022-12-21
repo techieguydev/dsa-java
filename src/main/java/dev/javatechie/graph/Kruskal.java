@@ -69,6 +69,12 @@ public class Kruskal {
         }
     }
 
+    /**
+     * Kruskal hash set [ ].
+     *
+     * @param graph the graph
+     * @return the hash set [ ]
+     */
     public HashSet<Edge>[] kruskal(final HashSet<Edge>[] graph) {
         int nodes = graph.length;
         int[] captain = new int[nodes];
