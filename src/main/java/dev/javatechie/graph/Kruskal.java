@@ -30,6 +30,11 @@ public class Kruskal {
         graph[from].add(new Edge(from, to, weight));
     }
 
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         final HashSet<Edge>[] graph = new HashSet[7];
         for(int i = 0; i < graph.length; i++) {
