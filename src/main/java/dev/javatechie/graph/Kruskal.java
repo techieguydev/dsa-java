@@ -6,7 +6,7 @@ import java.util.PriorityQueue;
 import java.util.Set;
 
 /**
- * The type Kruskal.
+ * The Kruskal .
  */
 public class Kruskal {
 
