@@ -12,6 +12,13 @@ public class Kruskal {
         private int to;
         private int weight;
 
+        /**
+         * Instantiates a new Edge.
+         *
+         * @param from   the from
+         * @param to     the to
+         * @param weight the weight
+         */
         public Edge(int from, int to, int weight) {
             this.from = from;
             this.to = to;
