@@ -19,7 +19,7 @@ public class Kruskal {
          * Instantiates a new Edge object.
          *
          * @param from   the from node
-         * @param to     the to
+         * @param to     the to node
          * @param weight the weight
          */
         public Edge(int from, int to, int weight) {
