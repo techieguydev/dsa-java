@@ -20,7 +20,7 @@ public class Kruskal {
          *
          * @param from   the from node
          * @param to     the to node
-         * @param weight the weight of
+         * @param weight the weight of the
          */
         public Edge(int from, int to, int weight) {
             this.from = from;
