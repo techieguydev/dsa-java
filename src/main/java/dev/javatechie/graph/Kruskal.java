@@ -73,7 +73,7 @@ public class Kruskal {
     }
 
     /**
-     * Kruskal hash set [ ].
+     * Kruskal .
      *
      * @param graph the graph
      * @return the hash set [ ]
