@@ -16,7 +16,7 @@ public class Kruskal {
         private int weight;
 
         /**
-         * Instantiates a new Edge.
+         * Instantiates a new Edge object.
          *
          * @param from   the from
          * @param to     the to
