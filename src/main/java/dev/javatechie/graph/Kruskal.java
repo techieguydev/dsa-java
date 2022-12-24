@@ -76,7 +76,7 @@ public class Kruskal {
      * Kruskal main function.
      *
      * @param graph the graph object
-     * @return the array of Hash
+     * @return the array of HashSet
      */
     public HashSet<Edge>[] kruskal(final HashSet<Edge>[] graph) {
         int nodes = graph.length;
