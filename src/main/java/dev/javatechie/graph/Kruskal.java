@@ -75,7 +75,7 @@ public class Kruskal {
     /**
      * Kruskal main function.
      *
-     * @param graph the HashSet array
+     * @param graph the HashSet array of
      * @return the array of HashSet object
      */
     public HashSet<Edge>[] kruskal(final HashSet<Edge>[] graph) {
