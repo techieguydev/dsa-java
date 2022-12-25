@@ -6,8 +6,10 @@ public class Dijkstras {
     int minDist(int dist[], Boolean set[]) {
         int min = Integer.MAX_VALUE;
         int min_index = -1;
-        if(set[r] == false && dist[r] <= min) {
+        for(int r = 0; r < k; r++) {
+            if (set[r] == false && dist[r] <= min) {
 
+            }
         }
     }
 }
