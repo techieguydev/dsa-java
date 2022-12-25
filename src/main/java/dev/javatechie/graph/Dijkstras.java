@@ -8,7 +8,7 @@ public class Dijkstras {
         int min_index = -1;
         for(int r = 0; r < k; r++) {
             if (set[r] == false && dist[r] <= min) {
-
+                min = dist[r];
             }
         }
     }
