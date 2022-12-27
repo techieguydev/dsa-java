@@ -12,6 +12,6 @@ public class Dijkstras {
                 min_index = r;
             }
         }
-        return
+        return min_index;
     }
 }
