@@ -9,6 +9,7 @@ public class Dijkstras {
         for(int r = 0; r < k; r++) {
             if (set[r] == false && dist[r] <= min) {
                 min = dist[r];
+                min_index = r;
             }
         }
     }
