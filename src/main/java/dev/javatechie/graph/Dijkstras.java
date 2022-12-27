@@ -15,7 +15,7 @@ public class Dijkstras {
         return min_index;
     }
 
-    void print() {
+    void print(int dist[]) {
 
     }
 }
