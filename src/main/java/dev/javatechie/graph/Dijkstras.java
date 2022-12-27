@@ -18,7 +18,7 @@ public class Dijkstras {
     void print(int dist[]) {
         System.out.println("Vertex \t\t Distance");
         for(int i = 0; i < k; i++) {
-            System.out.println(i + );
+            System.out.println(i + " \t ");
         }
     }
 }
