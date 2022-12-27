@@ -16,6 +16,6 @@ public class Dijkstras {
     }
 
     void print(int dist[]) {
-
+        System.out.println("Vertex \t\t Distance");
     }
 }
