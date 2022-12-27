@@ -14,4 +14,8 @@ public class Dijkstras {
         }
         return min_index;
     }
+
+    void print() {
+
+    }
 }
