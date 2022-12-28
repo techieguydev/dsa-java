@@ -22,7 +22,7 @@ public class Dijkstras {
         }
     }
 
-    void dijkstra(int graph[][], ) {
+    void dijkstra(int graph[][], int src) {
 
     }
 }
