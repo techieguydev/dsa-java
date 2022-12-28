@@ -21,4 +21,8 @@ public class Dijkstras {
             System.out.println(i + " \t " + dist[i]);
         }
     }
+
+    void dijkstra(int g) {
+
+    }
 }
