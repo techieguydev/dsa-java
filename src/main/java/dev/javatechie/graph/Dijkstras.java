@@ -41,7 +41,7 @@ public class Dijkstras {
     /**
      * Dijkstra.
      *
-     * @param graph the array graph
+     * @param graph the array of graph
      * @param src   the src
      */
     void dijkstra(int graph[][], int src) {
