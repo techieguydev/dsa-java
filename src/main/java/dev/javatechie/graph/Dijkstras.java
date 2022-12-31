@@ -6,6 +6,14 @@ package dev.javatechie.graph;
 public class Dijkstras {
 
     int k = 0;
+
+    /**
+     * Min dist int.
+     *
+     * @param dist the dist
+     * @param set  the set
+     * @return the int
+     */
     int minDist(int dist[], Boolean set[]) {
         int min = Integer.MAX_VALUE;
         int min_index = -1;
