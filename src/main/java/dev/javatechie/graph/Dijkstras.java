@@ -38,6 +38,12 @@ public class Dijkstras {
         }
     }
 
+    /**
+     * Dijkstra.
+     *
+     * @param graph the graph
+     * @param src   the src
+     */
     void dijkstra(int graph[][], int src) {
         int dist[] = new int[k];
         Boolean set[] = new Boolean[k];
