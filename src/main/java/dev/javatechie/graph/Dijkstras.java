@@ -10,7 +10,7 @@ public class Dijkstras {
     /**
      * Min dist int.
      *
-     * @param dist the array dist
+     * @param dist the array of dist
      * @param set  the set
      * @return the int
      */
