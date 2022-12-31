@@ -26,11 +26,6 @@ public class Dijkstras {
         return min_index;
     }
 
-    /**
-     * Print.
-     *
-     * @param dist the dist
-     */
     void print(int dist[]) {
         System.out.println("Vertex \t\t Distance");
         for(int i = 0; i < k; i++) {
