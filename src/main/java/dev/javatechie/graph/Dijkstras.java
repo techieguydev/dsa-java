@@ -1,5 +1,8 @@
 package dev.javatechie.graph;
 
+/**
+ * The type Dijkstras.
+ */
 public class Dijkstras {
 
     int k = 0;
