@@ -29,7 +29,7 @@ public class Dijkstras {
     /**
      * Print.
      *
-     * @param dist the dist
+     * @param dist the array dist
      */
     void print(int dist[]) {
         System.out.println("Vertex \t\t Distance");
