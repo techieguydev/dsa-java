@@ -27,7 +27,7 @@ public class Dijkstras {
     }
 
     /**
-     * Print.
+     * Print Dji.
      *
      * @param dist the array of dist
      */
