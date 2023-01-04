@@ -42,7 +42,7 @@ public class Dijkstras {
      * Dijkstra.
      *
      * @param graph the array of graph
-     * @param src   the src
+     * @param src   the source
      */
     void dijkstra(int graph[][], int src) {
         int dist[] = new int[k];
