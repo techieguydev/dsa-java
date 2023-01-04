@@ -39,7 +39,7 @@ public class Dijkstras {
     }
 
     /**
-     * Dijkstra.
+     * Dijkstra function.
      *
      * @param graph the array of graph
      * @param src   the source
