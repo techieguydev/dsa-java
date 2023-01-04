@@ -27,7 +27,7 @@ public class Dijkstras {
     }
 
     /**
-     * Print Dijkstras.
+     * Print Dijkstras data.
      *
      * @param dist the array of dist
      */
