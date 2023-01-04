@@ -8,7 +8,7 @@ public class Dijkstras {
     int k = 0;
 
     /**
-     * Min dist int.
+     * Return Min dist int.
      *
      * @param dist the array of dist
      * @param set  the set
