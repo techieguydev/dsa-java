@@ -1,7 +1,7 @@
 package dev.javatechie.graph;
 
 /**
- * This Dijkstras class is responsible for .
+ * This Dijkstras class is responsible for computation.
  */
 public class Dijkstras {
 
