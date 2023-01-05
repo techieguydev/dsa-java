@@ -1,7 +1,7 @@
 package dev.javatechie.graph;
 
 /**
- * The type Dijkstras.
+ * This Dijkstras.
  */
 public class Dijkstras {
 
