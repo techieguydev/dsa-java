@@ -48,7 +48,7 @@ public class Dijkstras {
         int dist[] = new int[k];
         Boolean set[] = new Boolean[k];
 
-        for(int i = 0; i < k;  ) {
+        for(int i = 0; i < k; i++) {
 
         }
     }
