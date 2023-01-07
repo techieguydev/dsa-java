@@ -49,7 +49,7 @@ public class Dijkstras {
         Boolean set[] = new Boolean[k];
 
         for(int i = 0; i < k; i++) {
-            dist[i] =
+            dist[i] = Integer.MAX_VALUE;
         }
     }
 }
