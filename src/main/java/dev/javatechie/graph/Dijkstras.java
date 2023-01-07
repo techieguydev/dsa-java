@@ -50,6 +50,7 @@ public class Dijkstras {
 
         for(int i = 0; i < k; i++) {
             dist[i] = Integer.MAX_VALUE;
+            set[i] = i;
         }
     }
 }
