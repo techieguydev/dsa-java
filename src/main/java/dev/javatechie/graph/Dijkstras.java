@@ -12,7 +12,7 @@ public class Dijkstras {
      *
      * @param dist the array of dist
      * @param set  the set of array
-     * @return the int
+     * @return the
      */
     int minDist(int dist[], Boolean set[]) {
         int min = Integer.MAX_VALUE;
