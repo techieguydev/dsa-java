@@ -11,7 +11,7 @@ public class Dijkstras {
      * Return Minimum dist in integer.
      *
      * @param dist the array of dist
-     * @param set  the set of
+     * @param set  the set of array
      * @return the int
      */
     int minDist(int dist[], Boolean set[]) {
