@@ -19,7 +19,7 @@ public class Dijkstras {
 
         val list = List(2, 3, 4)
 
-// Defining a function
+        // Defining a function
         def f(x:Int) = List(x-1, x, x+1)
 
         // Applying flatMap
