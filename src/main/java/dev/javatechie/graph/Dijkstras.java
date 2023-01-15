@@ -16,6 +16,11 @@ public class Dijkstras {
      */
     int minDist(int dist[], Boolean set[]) {
         int min = Integer.MAX_VALUE;
+
+        val list = List(2, 3, 4)
+
+
+
         int min_index = -1;
         for(int r = 0; r < k; r++) {
             if (set[r] == false && dist[r] <= min) {
