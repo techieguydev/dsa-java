@@ -23,7 +23,6 @@ public class Dijkstras {
         def f(x:Int) = List(x-1, x, x+1)
         // Applying flatMap
         val result = list.flatMap(y => f(y))
-
         // Displays output
         println(result)
 
