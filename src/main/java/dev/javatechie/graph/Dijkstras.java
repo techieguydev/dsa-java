@@ -20,13 +20,7 @@ public class Dijkstras {
         val list = List(2, 3, 4)
 
         // Defining a function
-        def f(x:Int) = List(x-1, x, x+1)
 
-        // Applying flatMap
-        val result = list.flatMap(y => f(y))
-
-        // Displays output
-        println(result)
 
         int min_index = -1;
         for(int r = 0; r < k; r++) {
